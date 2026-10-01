@@ -1,0 +1,29 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "publication_status": "published",
+  "files": {
+    "app.js": "d1fc5ab8ebe3255f15c8b726008a70afad62e8235d6f7804c1547a15cd4aaba7",
+    "board-brief.html": "ef9b565621b3f51c3a58a5af2cffc445bd3b5a8a24a1550cc31992202b324943",
+    "brand.svg": "30777994cb8dcb0a37ec8475a169a22062433e48332169b820cebfa4097b5f49",
+    "build-manifest.json": "a59fa1344ae6b171f5f8ac2222e5aa622d154542881a6903f5e440a0fd1ec5d8",
+    "changelog.html": "b0cc9699804d444cc92fe10bb997a111680642a746975f38da69fb764eb03b3a",
+    "compare.html": "fe4ed13921fd20cee1bcf9aaf0c53642fff55d475384a4daecaf420eef15a9c1",
+    "data/data.js": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
+    "data/geography.json": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
+    "data/localities.json": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
+    "data/pricing.csv": "d443bdb6391b8c24958044239ec2f213ad139809a1916dfe6fb0fa87cdb1939d",
+    "data/release-lifecycle.json": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
+    "data/service-taxonomy.json": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
+    "data/services.json": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
+    "explorer.html": "e4d58115f6b1882ff11bb82d28e790c1282ebaeff3212d180bd2c4b6056b1cbb",
+    "index.html": "8f17c538d05150d5e81822611106cefc628bc3d3e82f0b7f3d2ba832d0f6772d",
+    "latest.json": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
+    "lookup.js": "2cb23974ee4e37462978d0ce5d45245d3c6bc0626319dea6a9d91d429aa524a9",
+    "methodology.html": "33a52c4c1ca1dcac077909b8af2079a7b1e486bbb7eee6a05cf0f3ba9941a017",
+    "services/balcony-railing.html": "a4e8e32331785fee247d6e869e3ab968ed6520dde20afac2d5ea2a2673d0aa3f",
+    "services/condition-survey.html": "5eac2baffcf73f9915a2b830b131dc32df79f1e11cf459d30375daa7b46e740d",
+    "services/sirs.html": "34b02eac3439e198552c4e0657b949f5f1d3db63e29676134d6df00641da41e7",
+    "services/traditional-reserve-study.html": "8f5b941022b36d12f6a398a6ab4aad23ecab079320e84ae7565f824ec0f08e42",
+    "styles.css": "d3997b7a86904a58e0d9e8b1f40d2f2fe4b830b9a3a20db80876a1fc8f550e2a"
+  }
+}

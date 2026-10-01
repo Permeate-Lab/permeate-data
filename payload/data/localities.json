@@ -1,0 +1,252 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "research_cutoff": "2026-10-01",
+  "methodology_version": "locality-association-1",
+  "role": "service_applicability_index",
+  "price_localization": "regional_context_only",
+  "limitations": [
+    "Named communities, postal names, municipal boundaries and Census ZCTAs are different geographic concepts.",
+    "Links identify verified associated postal/ZCTA lookup areas. They are not exhaustive polygon intersections, municipal boundaries or geocoded properties.",
+    "Locality counties describe the named area; zcta_counties describes all county intersections of each associated Census area. These can differ.",
+    "Localities overlap. Do not add inventory counts across locality rows. Counts belong to the geographic context dataset, not a community-specific census.",
+    "Selecting a community does not establish local fee observations, provider coverage, service eligibility, regulatory requirements or a property jurisdiction."
+  ],
+  "localities": [
+    {
+      "id": "panama-city-beach",
+      "label": "Panama City Beach",
+      "aliases": [
+        "PCB"
+      ],
+      "locality_type": "municipality_and_postal_area",
+      "counties": [
+        "Bay"
+      ],
+      "zctas": [
+        "32407",
+        "32408",
+        "32413"
+      ],
+      "geography_note": "Panama City Beach is a city and a broader postal and visitor-area name. Associated ZIP areas do not establish city limits. ZCTA 32413 also intersects Walton County; use the property's actual jurisdiction for permitting.",
+      "canonical_slug": "panama-city-beach",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32407": [
+          "Bay"
+        ],
+        "32408": [
+          "Bay"
+        ],
+        "32413": [
+          "Bay",
+          "Walton"
+        ]
+      }
+    },
+    {
+      "id": "destin",
+      "label": "Destin",
+      "aliases": [],
+      "locality_type": "municipality_and_postal_area",
+      "counties": [
+        "Okaloosa"
+      ],
+      "zctas": [
+        "32541"
+      ],
+      "geography_note": "Destin is in Okaloosa County. This locality link uses associated ZIP area 32541, not an exact city boundary. Nearby Miramar Beach is separately indexed in Walton County.",
+      "canonical_slug": "destin",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32541": [
+          "Okaloosa"
+        ]
+      }
+    },
+    {
+      "id": "fort-walton-beach",
+      "label": "Fort Walton Beach",
+      "aliases": [
+        "FWB",
+        "Ft Walton Beach"
+      ],
+      "locality_type": "municipality_and_postal_area",
+      "counties": [
+        "Okaloosa"
+      ],
+      "zctas": [
+        "32547",
+        "32548"
+      ],
+      "geography_note": "The Fort Walton Beach postal name extends beyond the municipality. ZIP area 32548 is also associated with Okaloosa Island. Select the ZIP that matches the site; neither ZIP establishes municipal jurisdiction.",
+      "canonical_slug": "fort-walton-beach",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32547": [
+          "Okaloosa"
+        ],
+        "32548": [
+          "Okaloosa"
+        ]
+      }
+    },
+    {
+      "id": "miramar-beach",
+      "label": "Miramar Beach",
+      "aliases": [],
+      "locality_type": "community_and_postal_area",
+      "counties": [
+        "Walton"
+      ],
+      "zctas": [
+        "32550"
+      ],
+      "geography_note": "Miramar Beach is indexed separately from Destin. ZIP area 32550 provides Walton County context; it is not an exact community boundary or a property eligibility determination.",
+      "canonical_slug": "miramar-beach",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32550": [
+          "Walton"
+        ]
+      }
+    },
+    {
+      "id": "30a",
+      "label": "30A",
+      "aliases": [
+        "Scenic 30A",
+        "Scenic Highway 30A",
+        "County Highway 30A"
+      ],
+      "locality_type": "scenic_corridor",
+      "counties": [
+        "Walton"
+      ],
+      "zctas": [
+        "32459",
+        "32461"
+      ],
+      "geography_note": "30A refers here to the South Walton scenic corridor, not a city or a ZIP. Associated ZIP areas 32459 and 32461 cover territory beyond the corridor. Do not add their inventory counts to other community totals.",
+      "canonical_slug": "30a",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32459": [
+          "Walton"
+        ],
+        "32461": [
+          "Walton"
+        ]
+      }
+    },
+    {
+      "id": "santa-rosa-beach",
+      "label": "Santa Rosa Beach",
+      "aliases": [
+        "SRB"
+      ],
+      "locality_type": "community_and_postal_area",
+      "counties": [
+        "Walton"
+      ],
+      "zctas": [
+        "32459"
+      ],
+      "geography_note": "Santa Rosa Beach is a community and postal-area name in South Walton. Associated ZIP area 32459 includes multiple named communities and is not an exact neighborhood boundary.",
+      "canonical_slug": "santa-rosa-beach",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32459": [
+          "Walton"
+        ]
+      }
+    },
+    {
+      "id": "inlet-beach",
+      "label": "Inlet Beach",
+      "aliases": [],
+      "locality_type": "community_and_postal_area",
+      "counties": [
+        "Walton"
+      ],
+      "zctas": [
+        "32461"
+      ],
+      "geography_note": "Inlet Beach uses associated ZIP area 32461 in this edition. That ZIP area also serves other eastern South Walton communities; it is not exclusive to Inlet Beach.",
+      "canonical_slug": "inlet-beach",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32461": [
+          "Walton"
+        ]
+      }
+    },
+    {
+      "id": "okaloosa-island",
+      "label": "Okaloosa Island",
+      "aliases": [],
+      "locality_type": "island_community",
+      "counties": [
+        "Okaloosa"
+      ],
+      "zctas": [
+        "32548"
+      ],
+      "geography_note": "Okaloosa Island is a named island area with Fort Walton Beach postal addresses. Associated ZIP area 32548 is shared with mainland Fort Walton Beach; its inventory is not an island-only count.",
+      "canonical_slug": "okaloosa-island",
+      "geography_role": "service_applicability",
+      "applicability_area_id": "NWFL_BWO",
+      "evidence_geography_status": "not_established_by_locality",
+      "price_localization": "regional_context_only",
+      "local_fee_cohort_available": false,
+      "association_type": "verified_postal_area_association",
+      "boundary_equivalence": false,
+      "zcta_counties": {
+        "32548": [
+          "Okaloosa"
+        ]
+      }
+    }
+  ]
+}

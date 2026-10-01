@@ -1,0 +1,23 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "publication_status": "published",
+  "research_cutoff": "2026-10-01",
+  "last_verified": "2026-10-01",
+  "last_verified_scope": "Release inputs reviewed on October 1, 2026. This is not a new provider confirmation, transaction date or published release date.",
+  "review_due": "2026-10-31",
+  "supersedes": null,
+  "current_published_release": "permeate-nwfl-2026-10-01-r1",
+  "date_published": "2026-10-01",
+  "release_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/",
+  "current_reference_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/",
+  "methodology_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/methodology.html",
+  "build_mode": "production",
+  "immutable_manifest_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/edition-manifest.json",
+  "data_sha256": {
+    "services.json": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
+    "geography.json": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
+    "localities.json": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
+    "service-taxonomy.json": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
+    "release-lifecycle.json": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e"
+  }
+}
