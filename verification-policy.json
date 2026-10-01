@@ -1,7 +1,7 @@
 {
-  "policy_version": "2.1",
+  "policy_version": "2.2",
   "effective": "2026-10-01",
-  "supersedes": "2.0 (single block shape, see receipts/mirror-manifest-2026-10-01T20-32-15Z.json); 1.0 (exact recorded host block, see receipts/mirror-manifest-2026-10-01T19-02-26Z.json)",
+  "supersedes": "2.1 (two block shapes, both carrying host image tags, see receipts/mirror-manifest-2026-10-01T22-42-53Z.json); 2.0 (single block shape, see receipts/mirror-manifest-2026-10-01T20-32-15Z.json); 1.0 (exact recorded host block, see receipts/mirror-manifest-2026-10-01T19-02-26Z.json)",
   "scope": "Parity between payload/ in this repository and the canonical publication at https://permeatelab.com/research/northwest-florida-engineering-costs/. The policy verifies delivered bytes. It does not validate screenshot image contents, claim raw HTML byte equality, or certify data provenance.",
   "non_html": {
     "rule": "exact_raw",
@@ -9,14 +9,16 @@
   },
   "html": {
     "rule": "exact_source_or_one_bounded_host_block",
-    "description": "Live body must equal the payload file exactly, or equal the payload file with exactly one host block inserted immediately before the sole closing head tag. The block must match one of the recorded block shapes byte for byte except the image filename, which must be identical in the og:image and twitter:image tags and must match image_url_pattern. The host adds a twitter:description tag only when the page source declares og:description; when present its content must equal the source og:description content byte for byte. Extra tags or scripts, a different host or project prefix, unequal image URLs, a changed title, a description that differs from the source, a moved block, a second block, a second closing head tag, or any edit to the source bytes are rejected.",
+    "description": "Live body must equal the payload file exactly, or equal the payload file with exactly one host block inserted immediately before the sole closing head tag. The block must match one of the recorded block shapes byte for byte except the image filename, which must be identical in the og:image and twitter:image tags and must match image_url_pattern. The host adds a twitter:description tag only when the page source declares og:description; when present its content must equal the source og:description content byte for byte. The host adds og:image and twitter:image tags only when the page source declares neither; when the source declares its own og:image and twitter:image the block must carry no image tags, and when the source declares none the block must carry both. Extra tags or scripts, a different host or project prefix, unequal image URLs, a changed title, a description that differs from the source, host image tags on a source that declares its own, an image-less block on a source that declares none, a moved block, a second block, a second closing head tag, or any edit to the source bytes are rejected.",
     "image_url_pattern": "^https://pub-bb2e103a32db4e198524a2e9ed8f35b4\\.r2\\.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/[0-9a-f]{32}_[0-9]{13}\\.png$",
     "record_on_change": "When the image URL differs from the previously recorded one, the verifier reports the change and the regenerated manifest records the new URL. A URL change alone is not a parity failure.",
     "block_templates": {
       "title_image": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"{title}\"><meta property=\"og:image\" content=\"{image}\"><meta name=\"twitter:image\" content=\"{image}\">",
-      "title_description_image": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"{title}\"><meta name=\"twitter:description\" content=\"{description}\"><meta property=\"og:image\" content=\"{image}\"><meta name=\"twitter:image\" content=\"{image}\">"
+      "title_description_image": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"{title}\"><meta name=\"twitter:description\" content=\"{description}\"><meta property=\"og:image\" content=\"{image}\"><meta name=\"twitter:image\" content=\"{image}\">",
+      "title_description": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"{title}\"><meta name=\"twitter:description\" content=\"{description}\">"
     },
-    "description_source_rule": "{description} must equal the content attribute of the single <meta property=\"og:description\"> tag in the payload source."
+    "description_source_rule": "{description} must equal the content attribute of the single <meta property=\"og:description\"> tag in the payload source.",
+    "image_source_rule": "title_description is permitted only when the payload source contains exactly one <meta property=\"og:image\"> and exactly one <meta name=\"twitter:image\"> tag; title_image and title_description_image are permitted only when it contains neither."
   },
   "transport": {
     "user_agent": "permeate-mirror-verifier/2.0",
