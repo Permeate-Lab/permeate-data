@@ -4,7 +4,7 @@
   python3 scripts/verify_mirror.py --verify
   python3 scripts/verify_mirror.py --regenerate [--previous receipts/<old>.json]
 
-Policy: verification-policy.json (2.0). Standard library only.
+Policy: verification-policy.json (2.1). Standard library only.
 """
 import argparse, datetime, hashlib, json, re, sys, urllib.request
 from pathlib import Path
@@ -12,7 +12,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 POLICY = json.loads((ROOT / "verification-policy.json").read_text())
 IMAGE_RE = re.compile(POLICY["html"]["image_url_pattern"])
-TEMPLATE = POLICY["html"]["block_template"]
+TEMPLATES = POLICY["html"]["block_templates"]
+TEMPLATE = TEMPLATES["title_image"]
+OG_DESCRIPTION_RE = re.compile(rb'<meta property="og:description" content="([^"<>]*)">')
 HEAD_CLOSE = b"</head>"
 RECORDED_HEADERS = ("x-deployment-id", "content-type", "cache-control", "cf-ray", "x-robots-tag")
 
@@ -22,18 +24,26 @@ def sha256(data: bytes) -> str:
 
 
 def parse_block(block: bytes):
-    """Return (title, image_url) when block matches the template shape exactly, else None."""
-    pattern = re.escape(TEMPLATE.encode()).replace(rb"\{title\}", rb"(?P<title>[^\"<>]*)", 1)
-    pattern = pattern.replace(rb"\{image\}", rb"(?P<image>[^\"<>]*)", 1)
-    pattern = pattern.replace(rb"\{image\}", rb"(?P=image)", 1)
-    m = re.fullmatch(pattern, block)
-    if not m:
-        return None
-    return m.group("title").decode(), m.group("image").decode()
+    """Return (title, image_url, description_or_None) when block matches one recorded shape exactly, else None."""
+    for template in TEMPLATES.values():
+        pattern = re.escape(template.encode()).replace(rb"\{title\}", rb"(?P<title>[^\"<>]*)", 1)
+        pattern = pattern.replace(rb"\{description\}", rb"(?P<description>[^\"<>]*)", 1)
+        pattern = pattern.replace(rb"\{image\}", rb"(?P<image>[^\"<>]*)", 1)
+        pattern = pattern.replace(rb"\{image\}", rb"(?P=image)", 1)
+        m = re.fullmatch(pattern, block)
+        if m:
+            desc = m.groupdict().get("description")
+            return m.group("title").decode(), m.group("image").decode(), (desc.decode() if desc is not None else None)
+    return None
+
+
+def source_og_description(source: bytes):
+    found = OG_DESCRIPTION_RE.findall(source)
+    return found[0].decode() if len(found) == 1 else None
 
 
 def check_html(source: bytes, live: bytes, recorded_block: str | None):
-    """Apply policy 2.0 to one HTML document.
+    """Apply policy 2.1 to one HTML document.
 
     Returns (ok, mode, image_url, reason).
     """
@@ -51,16 +61,18 @@ def check_html(source: bytes, live: bytes, recorded_block: str | None):
     parsed = parse_block(block)
     if parsed is None:
         return False, "reject", None, "host block does not match the permitted template shape"
-    title, image = parsed
+    title, image, description = parsed
     if not IMAGE_RE.match(image):
         return False, "reject", image, "image URL outside the permitted host, project prefix or filename pattern"
+    if description is not None and description != source_og_description(source):
+        return False, "reject", image, "twitter:description differs from the source og:description"
     if recorded_block is not None:
         rec = parse_block(recorded_block.encode())
         if rec is None:
             return False, "reject", image, "recorded block is malformed"
         if rec[0] != title:
             return False, "reject", image, "twitter:title differs from the recorded block"
-        expected = TEMPLATE.format(title=rec[0], image=image).encode()
+        expected = recorded_block.replace(rec[1], image).encode()
         if block != expected:
             return False, "reject", image, "host block differs from the recorded block beyond the image filename"
     return True, "source_plus_bounded_host_block", image, ""
@@ -150,8 +162,8 @@ def run(manifest: dict | None, previous: dict | None, regenerate: bool):
         out = {
             "publisher": src.get("publisher", "Permeate Lab"), "publisher_affiliation": src.get("publisher_affiliation", "Nova3 AI"),
             "canonical_base": base, "release_id": src.get("release_id"), "policy_version": POLICY["policy_version"], "policy_file": "verification-policy.json",
-            "payload_representation": "Exact reviewed public source bytes. Non-HTML live bytes must match exactly. HTML live bytes must equal source or source plus one bounded host block (verification-policy.json 2.0). No raw HTML equality claim. Preview responses excluded.",
-            "live_parity_status": "verified_under_policy_2.0", "verified_at": finished.isoformat(),
+            "payload_representation": "Exact reviewed public source bytes. Non-HTML live bytes must match exactly. HTML live bytes must equal source or source plus one bounded host block (verification-policy.json 2.1). No raw HTML equality claim. Preview responses excluded.",
+            "live_parity_status": "verified_under_policy_2.1", "verified_at": finished.isoformat(),
             "observation_started": started.isoformat(), "previous_receipt": src.get("_receipt_path"),
             "file_count": len(files), "files": files,
         }
