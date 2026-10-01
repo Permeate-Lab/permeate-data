@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline adversarial fixtures for verification-policy.json 2.0. Run: python3 scripts/test_wrapper_policy.py"""
+"""Offline adversarial fixtures for verification-policy.json 2.2. Run: python3 scripts/test_wrapper_policy.py"""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -13,6 +13,9 @@ RECORDED = TEMPLATE.format(title="T", image=OLD)
 DESC = "Summary of T."
 SOURCE_WITH_OG = SOURCE.replace(b"<title>", f'<meta property="og:description" content="{DESC}"><title>'.encode(), 1)
 RECORDED_WITH_DESC = TEMPLATES["title_description_image"].format(title="T", description=DESC, image=OLD)
+OWN = "https://permeatelab.com/brand/permeatelab-og-1200x630.png"
+SOURCE_WITH_IMG = SOURCE_WITH_OG.replace(b"<title>", f'<meta property="og:image" content="{OWN}"><meta name="twitter:image" content="{OWN}"><title>'.encode(), 1)
+RECORDED_NO_IMG = TEMPLATES["title_description"].format(title="T", description=DESC)
 
 
 def inject(block: str, source: bytes = SOURCE) -> bytes:
@@ -23,8 +26,9 @@ def inject(block: str, source: bytes = SOURCE) -> bytes:
 def block(title="T", image=NEW, image2=None, description=None):
     image2 = image if image2 is None else image2
     desc = "" if description is None else f'<meta name="twitter:description" content="{description}">'
+    imgs = "" if image is None else f'<meta property="og:image" content="{image}"><meta name="twitter:image" content="{image2}">'
     return (f'<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script><meta name="twitter:title" content="{title}">'
-            f'{desc}<meta property="og:image" content="{image}"><meta name="twitter:image" content="{image2}">')
+            f'{desc}{imgs}')
 
 
 FIXTURES = [
@@ -63,9 +67,25 @@ DESC_FIXTURES = [
 ]
 
 
+IMG_FIXTURES = [
+    ("source with own images, exact source bytes", SOURCE_WITH_IMG, True),
+    ("image-less block, recorded, identical", inject(RECORDED_NO_IMG, SOURCE_WITH_IMG), True),
+    ("host image tags on a source with own images", inject(block(description=DESC), SOURCE_WITH_IMG), False),
+    ("image-less block on a source without images", inject(block(image=None, description=DESC), SOURCE_WITH_OG), False),
+    ("image-less block on a source without images or description", inject(block(image=None)), False),
+    ("image-less block missing twitter:description", inject(block(image=None), SOURCE_WITH_IMG), False),
+    ("image-less block, description differs", inject(block(image=None, description="Other text."), SOURCE_WITH_IMG), False),
+    ("image-less block, title changed", inject(block(image=None, title="Other", description=DESC), SOURCE_WITH_IMG), False),
+    ("image-less block with extra tag", inject(block(image=None, description=DESC) + '<meta name="x" content="y">', SOURCE_WITH_IMG), False),
+    ("image-less block with extra script", inject(block(image=None, description=DESC) + '<script src="/evil.js"></script>', SOURCE_WITH_IMG), False),
+    ("source own image edited", inject(block(image=None, description=DESC), SOURCE_WITH_IMG.replace(OWN.encode(), NEW.encode(), 1)), False),
+]
+
+
 def main():
     failed = 0
-    cases = [(SOURCE, RECORDED, f) for f in FIXTURES] + [(SOURCE_WITH_OG, RECORDED_WITH_DESC, f) for f in DESC_FIXTURES]
+    cases = ([(SOURCE, RECORDED, f) for f in FIXTURES] + [(SOURCE_WITH_OG, RECORDED_WITH_DESC, f) for f in DESC_FIXTURES]
+             + [(SOURCE_WITH_IMG, RECORDED_NO_IMG, f) for f in IMG_FIXTURES])
     for source, recorded, (name, live, expect) in cases:
         ok, mode, image, reason = check_html(source, live, recorded)
         status = "PASS" if ok == expect else "FAIL"
