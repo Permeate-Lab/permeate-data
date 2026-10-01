@@ -1,7 +1,7 @@
 {
-  "policy_version": "2.0",
+  "policy_version": "2.1",
   "effective": "2026-10-01",
-  "supersedes": "1.0 (exact recorded host block, see receipts/mirror-manifest-2026-10-01T19-02-26Z.json)",
+  "supersedes": "2.0 (single block shape, see receipts/mirror-manifest-2026-10-01T20-32-15Z.json); 1.0 (exact recorded host block, see receipts/mirror-manifest-2026-10-01T19-02-26Z.json)",
   "scope": "Parity between payload/ in this repository and the canonical publication at https://permeatelab.com/research/northwest-florida-engineering-costs/. The policy verifies delivered bytes. It does not validate screenshot image contents, claim raw HTML byte equality, or certify data provenance.",
   "non_html": {
     "rule": "exact_raw",
@@ -9,10 +9,14 @@
   },
   "html": {
     "rule": "exact_source_or_one_bounded_host_block",
-    "description": "Live body must equal the payload file exactly, or equal the payload file with exactly one host block inserted immediately before the sole closing head tag. The block must match the recorded block byte for byte except the image filename, which must be identical in the og:image and twitter:image tags and must match image_url_pattern. Extra tags or scripts, a different host or project prefix, unequal image URLs, a changed title, a moved block, a second block, a second closing head tag, or any edit to the source bytes are rejected.",
-    "block_template": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"{title}\"><meta property=\"og:image\" content=\"{image}\"><meta name=\"twitter:image\" content=\"{image}\">",
+    "description": "Live body must equal the payload file exactly, or equal the payload file with exactly one host block inserted immediately before the sole closing head tag. The block must match one of the recorded block shapes byte for byte except the image filename, which must be identical in the og:image and twitter:image tags and must match image_url_pattern. The host adds a twitter:description tag only when the page source declares og:description; when present its content must equal the source og:description content byte for byte. Extra tags or scripts, a different host or project prefix, unequal image URLs, a changed title, a description that differs from the source, a moved block, a second block, a second closing head tag, or any edit to the source bytes are rejected.",
     "image_url_pattern": "^https://pub-bb2e103a32db4e198524a2e9ed8f35b4\\.r2\\.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/[0-9a-f]{32}_[0-9]{13}\\.png$",
-    "record_on_change": "When the image URL differs from the previously recorded one, the verifier reports the change and the regenerated manifest records the new URL. A URL change alone is not a parity failure."
+    "record_on_change": "When the image URL differs from the previously recorded one, the verifier reports the change and the regenerated manifest records the new URL. A URL change alone is not a parity failure.",
+    "block_templates": {
+      "title_image": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"{title}\"><meta property=\"og:image\" content=\"{image}\"><meta name=\"twitter:image\" content=\"{image}\">",
+      "title_description_image": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"{title}\"><meta name=\"twitter:description\" content=\"{description}\"><meta property=\"og:image\" content=\"{image}\"><meta name=\"twitter:image\" content=\"{image}\">"
+    },
+    "description_source_rule": "{description} must equal the content attribute of the single <meta property=\"og:description\"> tag in the payload source."
   },
   "transport": {
     "user_agent": "permeate-mirror-verifier/2.0",

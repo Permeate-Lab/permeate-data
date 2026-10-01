@@ -3,13 +3,16 @@
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from verify_mirror import check_html, TEMPLATE  # noqa: E402
+from verify_mirror import check_html, TEMPLATE, TEMPLATES  # noqa: E402
 
 HOST = "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/"
 OLD = HOST + "680c68439d4f80ff28d0bc14348216be_1790880801739.png"
 NEW = HOST + "3720095dc287fc12b54291606fe501a5_1790881953604.png"
 SOURCE = b'<!doctype html><html><head><meta charset="utf-8"><title>T | Permeate Lab</title></head><body><p>body</p></body></html>'
 RECORDED = TEMPLATE.format(title="T", image=OLD)
+DESC = "Summary of T."
+SOURCE_WITH_OG = SOURCE.replace(b"<title>", f'<meta property="og:description" content="{DESC}"><title>'.encode(), 1)
+RECORDED_WITH_DESC = TEMPLATES["title_description_image"].format(title="T", description=DESC, image=OLD)
 
 
 def inject(block: str, source: bytes = SOURCE) -> bytes:
@@ -17,10 +20,11 @@ def inject(block: str, source: bytes = SOURCE) -> bytes:
     return source[:i] + block.encode() + source[i:]
 
 
-def block(title="T", image=NEW, image2=None):
+def block(title="T", image=NEW, image2=None, description=None):
     image2 = image if image2 is None else image2
+    desc = "" if description is None else f'<meta name="twitter:description" content="{description}">'
     return (f'<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script><meta name="twitter:title" content="{title}">'
-            f'<meta property="og:image" content="{image}"><meta name="twitter:image" content="{image2}">')
+            f'{desc}<meta property="og:image" content="{image}"><meta name="twitter:image" content="{image2}">')
 
 
 FIXTURES = [
@@ -44,17 +48,30 @@ FIXTURES = [
     ("http instead of https", inject(block(image=NEW.replace("https://", "http://"))), False),
     ("source head tag removed", inject(block()).replace(b"</head>", b"", 1), False),
     ("block before other head tags", SOURCE.replace(b"<title>", block().encode() + b"<title>"), False),
+    ("description tag when source has no og:description", inject(block(description=DESC)), False),
+]
+
+DESC_FIXTURES = [
+    ("source with og:description, exact source bytes", SOURCE_WITH_OG, True),
+    ("description block, recorded, identical", inject(RECORDED_WITH_DESC, SOURCE_WITH_OG), True),
+    ("description block with new valid image filename", inject(block(description=DESC), SOURCE_WITH_OG), True),
+    ("description differs from source og:description", inject(block(description="Other text."), SOURCE_WITH_OG), False),
+    ("description block missing twitter:description", inject(block(), SOURCE_WITH_OG), False),
+    ("description block with extra tag", inject(block(description=DESC) + '<meta name="x" content="y">', SOURCE_WITH_OG), False),
+    ("description block with unequal images", inject(block(description=DESC, image2=OLD), SOURCE_WITH_OG), False),
+    ("description block, title changed", inject(block(title="Other", description=DESC), SOURCE_WITH_OG), False),
 ]
 
 
 def main():
     failed = 0
-    for name, live, expect in FIXTURES:
-        ok, mode, image, reason = check_html(SOURCE, live, RECORDED)
+    cases = [(SOURCE, RECORDED, f) for f in FIXTURES] + [(SOURCE_WITH_OG, RECORDED_WITH_DESC, f) for f in DESC_FIXTURES]
+    for source, recorded, (name, live, expect) in cases:
+        ok, mode, image, reason = check_html(source, live, recorded)
         status = "PASS" if ok == expect else "FAIL"
         failed += status == "FAIL"
         print(f"{status}  {'accept' if expect else 'reject'}  {name}  -> {mode}{(' : ' + reason) if reason else ''}")
-    print(f"\n{len(FIXTURES) - failed}/{len(FIXTURES)} fixtures passed")
+    print(f"\n{len(cases) - failed}/{len(cases)} fixtures passed")
     sys.exit(1 if failed else 0)
 
 
