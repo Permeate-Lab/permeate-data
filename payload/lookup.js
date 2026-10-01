@@ -1,6 +1,6 @@
 (function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.PermeateLookup=factory();})(typeof self!=='undefined'?self:this,function(){
 'use strict';
-function normalizeZip(value){var z=String(value==null?'':value).trim();return /^\d{5}$/.test(z)?z:null;}
+function normalizeZip(value){var m=/^(\d{5})(?:-?\d{4})?$/.exec(String(value==null?'':value).trim());return m?m[1]:null;}
 function rows(geo){return geo.zips||geo.zip_areas||geo.areas||[];}
 function lookup(services,geo,zip,serviceId,scenarioId){
  var z=normalizeZip(zip);if(!z)return {status:'invalid_zip',message:'Enter a five-digit ZIP code, such as 32459.'};
