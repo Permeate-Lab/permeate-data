@@ -1,0 +1,888 @@
+{
+  "publisher": "Permeate Lab",
+  "publisher_affiliation": "Nova3 AI",
+  "canonical_base": "https://permeatelab.com/research/northwest-florida-engineering-costs/",
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "policy_version": "2.0",
+  "policy_file": "verification-policy.json",
+  "payload_representation": "Exact reviewed public source bytes. Non-HTML live bytes must match exactly. HTML live bytes must equal source or source plus one bounded host block (verification-policy.json 2.0). No raw HTML equality claim. Preview responses excluded.",
+  "live_parity_status": "verified_under_policy_2.0",
+  "verified_at": "2026-10-01T20:32:15.533906+00:00",
+  "observation_started": "2026-10-01T20:32:01.443409+00:00",
+  "previous_receipt": "receipts/mirror-manifest-2026-10-01T19-02-26Z.json",
+  "file_count": 47,
+  "files": {
+    "app.js": {
+      "path": "payload/app.js",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/app.js",
+      "sha256": "d1fc5ab8ebe3255f15c8b726008a70afad62e8235d6f7804c1547a15cd4aaba7",
+      "bytes": 7571,
+      "http_status": 200,
+      "live_raw_sha256": "d1fc5ab8ebe3255f15c8b726008a70afad62e8235d6f7804c1547a15cd4aaba7",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491521.DR76pJx0TnFDDFc4Jbprlv7L4WgreNEpQ0uOin_3pXw",
+        "content-type": "text/javascript; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3bf93921b233-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "board-brief.html": {
+      "path": "payload/board-brief.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/board-brief.html",
+      "sha256": "ef9b565621b3f51c3a58a5af2cffc445bd3b5a8a24a1550cc31992202b324943",
+      "bytes": 4184,
+      "http_status": 200,
+      "live_raw_sha256": "775c27fc5bea85c2b1ca227311c40f0932f439632b42cb8b31b21bf13bb895a5",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491521.DR76pJx0TnFDDFc4Jbprlv7L4WgreNEpQ0uOin_3pXw",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3bf9b970e3a4-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Board budget brief\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "f5ed06e93db713b79a89e44b2ea847ddb37e04e9b6c2f66ead060ec94d87fd16",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "ef9b565621b3f51c3a58a5af2cffc445bd3b5a8a24a1550cc31992202b324943",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "brand.svg": {
+      "path": "payload/brand.svg",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/brand.svg",
+      "sha256": "30777994cb8dcb0a37ec8475a169a22062433e48332169b820cebfa4097b5f49",
+      "bytes": 15663,
+      "http_status": 200,
+      "live_raw_sha256": "30777994cb8dcb0a37ec8475a169a22062433e48332169b820cebfa4097b5f49",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491521.DR76pJx0TnFDDFc4Jbprlv7L4WgreNEpQ0uOin_3pXw",
+        "content-type": "image/svg+xml",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3bfb5e5ad86b-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "build-manifest.json": {
+      "path": "payload/build-manifest.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/build-manifest.json",
+      "sha256": "2c7c63a20711a802663429fcead3395be75c8d6a45a3edb9b81aa5c6fb130f86",
+      "bytes": 2289,
+      "http_status": 200,
+      "live_raw_sha256": "2c7c63a20711a802663429fcead3395be75c8d6a45a3edb9b81aa5c6fb130f86",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491522.DivB-0gr1D7obLJgQ2UmRjHh9wfXpjGIiuJgIyRngRQ",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3bfd0adfb9ce-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "changelog.html": {
+      "path": "payload/changelog.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/changelog.html",
+      "sha256": "b0cc9699804d444cc92fe10bb997a111680642a746975f38da69fb764eb03b3a",
+      "bytes": 3792,
+      "http_status": 200,
+      "live_raw_sha256": "571f7c4f2ffed382cb8dc62aa1ab60f22445d8b6843c63a11ad1bfbed0ea64ee",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491522.DivB-0gr1D7obLJgQ2UmRjHh9wfXpjGIiuJgIyRngRQ",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3bfee91a76e6-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Edition history\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "dc761ccc2584e956e0eaaebdc01435dfe8bd8d2a5fc5d49d5a91bdcb2953b794",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "b0cc9699804d444cc92fe10bb997a111680642a746975f38da69fb764eb03b3a",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "compare.html": {
+      "path": "payload/compare.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/compare.html",
+      "sha256": "fe4ed13921fd20cee1bcf9aaf0c53642fff55d475384a4daecaf420eef15a9c1",
+      "bytes": 6121,
+      "http_status": 200,
+      "live_raw_sha256": "6790e6e17023eb7e4a3675d8421764a985bab109301aa3f3f86b21309d8607d9",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491522.DivB-0gr1D7obLJgQ2UmRjHh9wfXpjGIiuJgIyRngRQ",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c00d887ebc2-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Compare engineering proposal scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "3d93176430e120bc77ccdc808cb0cf2c303bc0af75e26571b733fc42e6746c9b",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "fe4ed13921fd20cee1bcf9aaf0c53642fff55d475384a4daecaf420eef15a9c1",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "data/data.js": {
+      "path": "payload/data/data.js",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/data.js",
+      "sha256": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
+      "bytes": 78057,
+      "http_status": 200,
+      "live_raw_sha256": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491522.DivB-0gr1D7obLJgQ2UmRjHh9wfXpjGIiuJgIyRngRQ",
+        "content-type": "text/javascript; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c02894f768d-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "data/geography.json": {
+      "path": "payload/data/geography.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/geography.json",
+      "sha256": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
+      "bytes": 43440,
+      "http_status": 200,
+      "live_raw_sha256": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491523.qRl-1uWR74h_5qpsHk-eAU7t5TuwIqKX8Oigg8fOHpA",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c047d2a78c9-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "data/localities.json": {
+      "path": "payload/data/localities.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/localities.json",
+      "sha256": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
+      "bytes": 8860,
+      "http_status": 200,
+      "live_raw_sha256": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491523.qRl-1uWR74h_5qpsHk-eAU7t5TuwIqKX8Oigg8fOHpA",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c062f436813-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "data/pricing.csv": {
+      "path": "payload/data/pricing.csv",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/pricing.csv",
+      "sha256": "d443bdb6391b8c24958044239ec2f213ad139809a1916dfe6fb0fa87cdb1939d",
+      "bytes": 18228,
+      "http_status": 200,
+      "live_raw_sha256": "d443bdb6391b8c24958044239ec2f213ad139809a1916dfe6fb0fa87cdb1939d",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491523.qRl-1uWR74h_5qpsHk-eAU7t5TuwIqKX8Oigg8fOHpA",
+        "content-type": "text/csv; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c07ab34174f-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "data/release-lifecycle.json": {
+      "path": "payload/data/release-lifecycle.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/release-lifecycle.json",
+      "sha256": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
+      "bytes": 1546,
+      "http_status": 200,
+      "live_raw_sha256": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491524.lj8Rck5sO_wlI5dqaNFQ6QNsRhYJbAPmQRow7C5yyuw",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c0979bdfa42-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "data/service-taxonomy.json": {
+      "path": "payload/data/service-taxonomy.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/service-taxonomy.json",
+      "sha256": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
+      "bytes": 4108,
+      "http_status": 200,
+      "live_raw_sha256": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491524.lj8Rck5sO_wlI5dqaNFQ6QNsRhYJbAPmQRow7C5yyuw",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c0b5cb3a36b-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "data/services.json": {
+      "path": "payload/data/services.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/services.json",
+      "sha256": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
+      "bytes": 18506,
+      "http_status": 200,
+      "live_raw_sha256": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491524.lj8Rck5sO_wlI5dqaNFQ6QNsRhYJbAPmQRow7C5yyuw",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c0d1fc8df03-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "explorer.html": {
+      "path": "payload/explorer.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/explorer.html",
+      "sha256": "e4d58115f6b1882ff11bb82d28e790c1282ebaeff3212d180bd2c4b6056b1cbb",
+      "bytes": 8690,
+      "http_status": 200,
+      "live_raw_sha256": "04e67bd873721187e064da418d1df544b7fd9133a213b207fa29746c8c5e1d59",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491524.lj8Rck5sO_wlI5dqaNFQ6QNsRhYJbAPmQRow7C5yyuw",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c0eec2bd807-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"ZIP and service explorer\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "34e11534d8ecfe8f22ee50dca0af65dad44a6bc15addd5b08cd44a1299457f37",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "e4d58115f6b1882ff11bb82d28e790c1282ebaeff3212d180bd2c4b6056b1cbb",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "index.html": {
+      "path": "payload/index.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/index.html",
+      "sha256": "8f17c538d05150d5e81822611106cefc628bc3d3e82f0b7f3d2ba832d0f6772d",
+      "bytes": 9960,
+      "http_status": 200,
+      "live_raw_sha256": "ef982981bbddd69130768723284b9d3798069e4266e905f6e2b5ce3779eb557b",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491525.Zhe_P-6Y5LF0UobPqOsMv59v5yDyr5P4bnPjnKpM26s",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache, must-revalidate, max-age=0",
+        "cf-ray": "a43e3c110eeceb3e-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Northwest Florida engineering costs\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "811769423efc3eaf184d10c66bae6bef74efdf127c80243190e340986211abfa",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "8f17c538d05150d5e81822611106cefc628bc3d3e82f0b7f3d2ba832d0f6772d",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "latest.json": {
+      "path": "payload/latest.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/latest.json",
+      "sha256": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
+      "bytes": 1474,
+      "http_status": 200,
+      "live_raw_sha256": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491525.Zhe_P-6Y5LF0UobPqOsMv59v5yDyr5P4bnPjnKpM26s",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c12afe7759e-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "lookup.js": {
+      "path": "payload/lookup.js",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/lookup.js",
+      "sha256": "2cb23974ee4e37462978d0ce5d45245d3c6bc0626319dea6a9d91d429aa524a9",
+      "bytes": 4311,
+      "http_status": 200,
+      "live_raw_sha256": "2cb23974ee4e37462978d0ce5d45245d3c6bc0626319dea6a9d91d429aa524a9",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491525.Zhe_P-6Y5LF0UobPqOsMv59v5yDyr5P4bnPjnKpM26s",
+        "content-type": "text/javascript; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c147e5d4f60-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "methodology.html": {
+      "path": "payload/methodology.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/methodology.html",
+      "sha256": "33a52c4c1ca1dcac077909b8af2079a7b1e486bbb7eee6a05cf0f3ba9941a017",
+      "bytes": 9472,
+      "http_status": 200,
+      "live_raw_sha256": "718545df79e6c210700ab28c069fc793d1bc4627129ba996cb6b8e08cbd4f660",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491526.MKW04Tafi5G_NqI9np-xLeNbrjfwY1rPqw_CZBo5Md8",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c161e002506-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Methodology and data\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "6f4fb44c9708e4334d7edb7489ab085f8b295d0b5155eaff1df026f75743ab2b",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "33a52c4c1ca1dcac077909b8af2079a7b1e486bbb7eee6a05cf0f3ba9941a017",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/app.js": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/app.js",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/app.js",
+      "sha256": "d1fc5ab8ebe3255f15c8b726008a70afad62e8235d6f7804c1547a15cd4aaba7",
+      "bytes": 7571,
+      "http_status": 200,
+      "live_raw_sha256": "d1fc5ab8ebe3255f15c8b726008a70afad62e8235d6f7804c1547a15cd4aaba7",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491526.MKW04Tafi5G_NqI9np-xLeNbrjfwY1rPqw_CZBo5Md8",
+        "content-type": "text/javascript; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c17d9e8eb93-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/board-brief.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/board-brief.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/board-brief.html",
+      "sha256": "ef9b565621b3f51c3a58a5af2cffc445bd3b5a8a24a1550cc31992202b324943",
+      "bytes": 4184,
+      "http_status": 200,
+      "live_raw_sha256": "775c27fc5bea85c2b1ca227311c40f0932f439632b42cb8b31b21bf13bb895a5",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491526.MKW04Tafi5G_NqI9np-xLeNbrjfwY1rPqw_CZBo5Md8",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c199e40a354-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Board budget brief\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "f5ed06e93db713b79a89e44b2ea847ddb37e04e9b6c2f66ead060ec94d87fd16",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "ef9b565621b3f51c3a58a5af2cffc445bd3b5a8a24a1550cc31992202b324943",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/brand.svg": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/brand.svg",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/brand.svg",
+      "sha256": "30777994cb8dcb0a37ec8475a169a22062433e48332169b820cebfa4097b5f49",
+      "bytes": 15663,
+      "http_status": 200,
+      "live_raw_sha256": "30777994cb8dcb0a37ec8475a169a22062433e48332169b820cebfa4097b5f49",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491526.MKW04Tafi5G_NqI9np-xLeNbrjfwY1rPqw_CZBo5Md8",
+        "content-type": "image/svg+xml",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c1b79dd33d4-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/build-manifest.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/build-manifest.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/build-manifest.json",
+      "sha256": "a59fa1344ae6b171f5f8ac2222e5aa622d154542881a6903f5e440a0fd1ec5d8",
+      "bytes": 762,
+      "http_status": 200,
+      "live_raw_sha256": "a59fa1344ae6b171f5f8ac2222e5aa622d154542881a6903f5e440a0fd1ec5d8",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491527.ihdNpjJzyxXuAi3v4c3VehsDkIuo7mXFx8CIast1L8Y",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c1d2e9d7532-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/changelog.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/changelog.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/changelog.html",
+      "sha256": "b0cc9699804d444cc92fe10bb997a111680642a746975f38da69fb764eb03b3a",
+      "bytes": 3792,
+      "http_status": 200,
+      "live_raw_sha256": "571f7c4f2ffed382cb8dc62aa1ab60f22445d8b6843c63a11ad1bfbed0ea64ee",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491527.ihdNpjJzyxXuAi3v4c3VehsDkIuo7mXFx8CIast1L8Y",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c1f188f354f-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Edition history\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "dc761ccc2584e956e0eaaebdc01435dfe8bd8d2a5fc5d49d5a91bdcb2953b794",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "b0cc9699804d444cc92fe10bb997a111680642a746975f38da69fb764eb03b3a",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/compare.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/compare.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/compare.html",
+      "sha256": "fe4ed13921fd20cee1bcf9aaf0c53642fff55d475384a4daecaf420eef15a9c1",
+      "bytes": 6121,
+      "http_status": 200,
+      "live_raw_sha256": "6790e6e17023eb7e4a3675d8421764a985bab109301aa3f3f86b21309d8607d9",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491527.ihdNpjJzyxXuAi3v4c3VehsDkIuo7mXFx8CIast1L8Y",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c20b995f16e-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Compare engineering proposal scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "3d93176430e120bc77ccdc808cb0cf2c303bc0af75e26571b733fc42e6746c9b",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "fe4ed13921fd20cee1bcf9aaf0c53642fff55d475384a4daecaf420eef15a9c1",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/data/data.js": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/data/data.js",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/data/data.js",
+      "sha256": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
+      "bytes": 78057,
+      "http_status": 200,
+      "live_raw_sha256": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491528.ZefbuIP2kVegRJqg1FxvzRHrkxss3HlR_ffmXvtF16U",
+        "content-type": "text/javascript; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c223dfcebc2-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/data/geography.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/data/geography.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/data/geography.json",
+      "sha256": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
+      "bytes": 43440,
+      "http_status": 200,
+      "live_raw_sha256": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491528.ZefbuIP2kVegRJqg1FxvzRHrkxss3HlR_ffmXvtF16U",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c23dab976a6-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/data/localities.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/data/localities.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/data/localities.json",
+      "sha256": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
+      "bytes": 8860,
+      "http_status": 200,
+      "live_raw_sha256": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491528.ZefbuIP2kVegRJqg1FxvzRHrkxss3HlR_ffmXvtF16U",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c25c8aed571-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/data/pricing.csv": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/data/pricing.csv",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/data/pricing.csv",
+      "sha256": "d443bdb6391b8c24958044239ec2f213ad139809a1916dfe6fb0fa87cdb1939d",
+      "bytes": 18228,
+      "http_status": 200,
+      "live_raw_sha256": "d443bdb6391b8c24958044239ec2f213ad139809a1916dfe6fb0fa87cdb1939d",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491528.ZefbuIP2kVegRJqg1FxvzRHrkxss3HlR_ffmXvtF16U",
+        "content-type": "text/csv; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c278ed2757b-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/data/release-lifecycle.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/data/release-lifecycle.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/data/release-lifecycle.json",
+      "sha256": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
+      "bytes": 1546,
+      "http_status": 200,
+      "live_raw_sha256": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491529.pUaC8pgV5DZ8-TSq6EGR5Bx7r0o7p_pi-ez_jP7Krpw",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c297abd7675-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/data/service-taxonomy.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/data/service-taxonomy.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/data/service-taxonomy.json",
+      "sha256": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
+      "bytes": 4108,
+      "http_status": 200,
+      "live_raw_sha256": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491529.pUaC8pgV5DZ8-TSq6EGR5Bx7r0o7p_pi-ez_jP7Krpw",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c2b7db1ebe6-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/data/services.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/data/services.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/data/services.json",
+      "sha256": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
+      "bytes": 18506,
+      "http_status": 200,
+      "live_raw_sha256": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491529.pUaC8pgV5DZ8-TSq6EGR5Bx7r0o7p_pi-ez_jP7Krpw",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c2d7810ad6a-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/edition-manifest.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/edition-manifest.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/edition-manifest.json",
+      "sha256": "00d4690ed95961aba5eeeeb1cbf8af63742901b82a0da893cecc7af7debd0303",
+      "bytes": 2251,
+      "http_status": 200,
+      "live_raw_sha256": "00d4690ed95961aba5eeeeb1cbf8af63742901b82a0da893cecc7af7debd0303",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491530.eSoKuzvwcZ8vMyP5TooJ7hPJlgt-amaaTmU_noy0_z4",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c2f1a40a386-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/explorer.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/explorer.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/explorer.html",
+      "sha256": "e4d58115f6b1882ff11bb82d28e790c1282ebaeff3212d180bd2c4b6056b1cbb",
+      "bytes": 8690,
+      "http_status": 200,
+      "live_raw_sha256": "04e67bd873721187e064da418d1df544b7fd9133a213b207fa29746c8c5e1d59",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491530.eSoKuzvwcZ8vMyP5TooJ7hPJlgt-amaaTmU_noy0_z4",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c311b967648-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"ZIP and service explorer\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "34e11534d8ecfe8f22ee50dca0af65dad44a6bc15addd5b08cd44a1299457f37",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "e4d58115f6b1882ff11bb82d28e790c1282ebaeff3212d180bd2c4b6056b1cbb",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/index.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/index.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/index.html",
+      "sha256": "8f17c538d05150d5e81822611106cefc628bc3d3e82f0b7f3d2ba832d0f6772d",
+      "bytes": 9960,
+      "http_status": 200,
+      "live_raw_sha256": "ef982981bbddd69130768723284b9d3798069e4266e905f6e2b5ce3779eb557b",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491530.eSoKuzvwcZ8vMyP5TooJ7hPJlgt-amaaTmU_noy0_z4",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-cache, must-revalidate, max-age=0",
+        "cf-ray": "a43e3c330ecc76b2-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Northwest Florida engineering costs\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "811769423efc3eaf184d10c66bae6bef74efdf127c80243190e340986211abfa",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "8f17c538d05150d5e81822611106cefc628bc3d3e82f0b7f3d2ba832d0f6772d",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/latest.json": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/latest.json",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/latest.json",
+      "sha256": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
+      "bytes": 1474,
+      "http_status": 200,
+      "live_raw_sha256": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491531.n6ENE_xvVpW9bCkkYhb8bSbKRKFP172a0vk5gtGmwd8",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c34fc0630a5-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/lookup.js": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/lookup.js",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/lookup.js",
+      "sha256": "2cb23974ee4e37462978d0ce5d45245d3c6bc0626319dea6a9d91d429aa524a9",
+      "bytes": 4311,
+      "http_status": 200,
+      "live_raw_sha256": "2cb23974ee4e37462978d0ce5d45245d3c6bc0626319dea6a9d91d429aa524a9",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491531.n6ENE_xvVpW9bCkkYhb8bSbKRKFP172a0vk5gtGmwd8",
+        "content-type": "text/javascript; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c36b9b176df-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/methodology.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/methodology.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/methodology.html",
+      "sha256": "33a52c4c1ca1dcac077909b8af2079a7b1e486bbb7eee6a05cf0f3ba9941a017",
+      "bytes": 9472,
+      "http_status": 200,
+      "live_raw_sha256": "718545df79e6c210700ab28c069fc793d1bc4627129ba996cb6b8e08cbd4f660",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491531.n6ENE_xvVpW9bCkkYhb8bSbKRKFP172a0vk5gtGmwd8",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c388a620d2e-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Methodology and data\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "6f4fb44c9708e4334d7edb7489ab085f8b295d0b5155eaff1df026f75743ab2b",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "33a52c4c1ca1dcac077909b8af2079a7b1e486bbb7eee6a05cf0f3ba9941a017",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/services/balcony-railing.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/services/balcony-railing.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/services/balcony-railing.html",
+      "sha256": "a4e8e32331785fee247d6e869e3ab968ed6520dde20afac2d5ea2a2673d0aa3f",
+      "bytes": 5854,
+      "http_status": 200,
+      "live_raw_sha256": "54763fbdf986aaccf17db1a36ee6fa3b7bcd5afc3d9d9436ab750a402b89be5c",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491532.VDGb5P7_OHf56BvNxF_DmwQ0siTiUM1lgvCDgFdOWpg",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c3a18307520-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Balcony and railing assessment cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "7c8ebf0f8d6737d24560b895d9debe7b8bc103cf69f9e56ed25ce819384d2079",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "a4e8e32331785fee247d6e869e3ab968ed6520dde20afac2d5ea2a2673d0aa3f",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/services/condition-survey.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/services/condition-survey.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/services/condition-survey.html",
+      "sha256": "5eac2baffcf73f9915a2b830b131dc32df79f1e11cf459d30375daa7b46e740d",
+      "bytes": 5205,
+      "http_status": 200,
+      "live_raw_sha256": "ff2bc2e591fa3b237b8dac80dcc3b275bccb64578beb49fbe7ecb2adffd9ced4",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491533.XZMrk7oEjKRdI5TbhqgiQ2EA5W38qPcsMOpibsK77ME",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c4438bea80e-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Condition survey cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "4b163d06811222055e1c5aae80caf40770e26f18d0b3332f3f7b5b35f143ca27",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "5eac2baffcf73f9915a2b830b131dc32df79f1e11cf459d30375daa7b46e740d",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/services/sirs.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/services/sirs.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/services/sirs.html",
+      "sha256": "34b02eac3439e198552c4e0657b949f5f1d3db63e29676134d6df00641da41e7",
+      "bytes": 5329,
+      "http_status": 200,
+      "live_raw_sha256": "b9b090753d0bc6ccb4c2ea5ecad2cc71fbe6a859686a1e9ec18887a4bf015985",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491533.XZMrk7oEjKRdI5TbhqgiQ2EA5W38qPcsMOpibsK77ME",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c462e12ebca-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Structural Integrity Reserve Study (SIRS) cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "d69111392f146d1a8f8e297e8086ddd33c9e7199daef536334317f79f65865d6",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "34b02eac3439e198552c4e0657b949f5f1d3db63e29676134d6df00641da41e7",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/services/traditional-reserve-study.html": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/services/traditional-reserve-study.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/services/traditional-reserve-study.html",
+      "sha256": "8f5b941022b36d12f6a398a6ab4aad23ecab079320e84ae7565f824ec0f08e42",
+      "bytes": 5268,
+      "http_status": 200,
+      "live_raw_sha256": "e96106696c4fd7efa3c56572673eddf37f3db488ce6c263a3372cb80a381af50",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491534.nHFl644ldhboqusK8-KIhnus5YyOoMABRpnvaz-1cc4",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c47cdbfadb4-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Traditional reserve study cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "3fb6f75b64130927f78e3e3b91db97167756a224cd67eb98cdb7e722cb28cbeb",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "8f5b941022b36d12f6a398a6ab4aad23ecab079320e84ae7565f824ec0f08e42",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "releases/permeate-nwfl-2026-10-01-r1/styles.css": {
+      "path": "payload/releases/permeate-nwfl-2026-10-01-r1/styles.css",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/releases/permeate-nwfl-2026-10-01-r1/styles.css",
+      "sha256": "d3997b7a86904a58e0d9e8b1f40d2f2fe4b830b9a3a20db80876a1fc8f550e2a",
+      "bytes": 7175,
+      "http_status": 200,
+      "live_raw_sha256": "d3997b7a86904a58e0d9e8b1f40d2f2fe4b830b9a3a20db80876a1fc8f550e2a",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491534.nHFl644ldhboqusK8-KIhnus5YyOoMABRpnvaz-1cc4",
+        "content-type": "text/css; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c49e8af7209-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    },
+    "services/balcony-railing.html": {
+      "path": "payload/services/balcony-railing.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/balcony-railing.html",
+      "sha256": "a4e8e32331785fee247d6e869e3ab968ed6520dde20afac2d5ea2a2673d0aa3f",
+      "bytes": 5854,
+      "http_status": 200,
+      "live_raw_sha256": "54763fbdf986aaccf17db1a36ee6fa3b7bcd5afc3d9d9436ab750a402b89be5c",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491534.nHFl644ldhboqusK8-KIhnus5YyOoMABRpnvaz-1cc4",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c4abdc1b99c-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Balcony and railing assessment cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "7c8ebf0f8d6737d24560b895d9debe7b8bc103cf69f9e56ed25ce819384d2079",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "a4e8e32331785fee247d6e869e3ab968ed6520dde20afac2d5ea2a2673d0aa3f",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "services/condition-survey.html": {
+      "path": "payload/services/condition-survey.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/condition-survey.html",
+      "sha256": "5eac2baffcf73f9915a2b830b131dc32df79f1e11cf459d30375daa7b46e740d",
+      "bytes": 5205,
+      "http_status": 200,
+      "live_raw_sha256": "ff2bc2e591fa3b237b8dac80dcc3b275bccb64578beb49fbe7ecb2adffd9ced4",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491534.nHFl644ldhboqusK8-KIhnus5YyOoMABRpnvaz-1cc4",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c4cc8770239-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Condition survey cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "4b163d06811222055e1c5aae80caf40770e26f18d0b3332f3f7b5b35f143ca27",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "5eac2baffcf73f9915a2b830b131dc32df79f1e11cf459d30375daa7b46e740d",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "services/sirs.html": {
+      "path": "payload/services/sirs.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/sirs.html",
+      "sha256": "34b02eac3439e198552c4e0657b949f5f1d3db63e29676134d6df00641da41e7",
+      "bytes": 5329,
+      "http_status": 200,
+      "live_raw_sha256": "b9b090753d0bc6ccb4c2ea5ecad2cc71fbe6a859686a1e9ec18887a4bf015985",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491535.LFyIlGGipBiLGCtt0PFkeVDCzup5N9LyvlzCxsjOlVM",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c4e7afbec1f-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Structural Integrity Reserve Study (SIRS) cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "d69111392f146d1a8f8e297e8086ddd33c9e7199daef536334317f79f65865d6",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "34b02eac3439e198552c4e0657b949f5f1d3db63e29676134d6df00641da41e7",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "services/traditional-reserve-study.html": {
+      "path": "payload/services/traditional-reserve-study.html",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/traditional-reserve-study.html",
+      "sha256": "8f5b941022b36d12f6a398a6ab4aad23ecab079320e84ae7565f824ec0f08e42",
+      "bytes": 5268,
+      "http_status": 200,
+      "live_raw_sha256": "e96106696c4fd7efa3c56572673eddf37f3db488ce6c263a3372cb80a381af50",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491535.LFyIlGGipBiLGCtt0PFkeVDCzup5N9LyvlzCxsjOlVM",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c501e8eb9bb-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "source_plus_bounded_host_block",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Traditional reserve study cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/3720095dc287fc12b54291606fe501a5_1790881953604.png\">",
+      "host_block_sha256": "3fb6f75b64130927f78e3e3b91db97167756a224cd67eb98cdb7e722cb28cbeb",
+      "host_block_location": "Immediately before the sole closing head tag",
+      "live_normalized_sha256": "8f5b941022b36d12f6a398a6ab4aad23ecab079320e84ae7565f824ec0f08e42",
+      "host_block_image_url_changed_since_previous": true
+    },
+    "styles.css": {
+      "path": "payload/styles.css",
+      "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/styles.css",
+      "sha256": "d3997b7a86904a58e0d9e8b1f40d2f2fe4b830b9a3a20db80876a1fc8f550e2a",
+      "bytes": 7175,
+      "http_status": 200,
+      "live_raw_sha256": "d3997b7a86904a58e0d9e8b1f40d2f2fe4b830b9a3a20db80876a1fc8f550e2a",
+      "response_headers": {
+        "x-deployment-id": "psr2.cefba760-d1d4-4b6c-95dc-0a5be53e55ce.1791491535.LFyIlGGipBiLGCtt0PFkeVDCzup5N9LyvlzCxsjOlVM",
+        "content-type": "text/css; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        "cf-ray": "a43e3c50ba3bba2d-SEA",
+        "x-robots-tag": "index, follow"
+      },
+      "parity_mode": "exact_raw"
+    }
+  }
+}
