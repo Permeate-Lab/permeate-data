@@ -1,0 +1,1286 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "research_cutoff": "2026-10-01",
+  "geography_vintage": {
+    "reference_points": 2026,
+    "zcta_county_relationships": 2020
+  },
+  "sources": [
+    {
+      "publisher": "Florida DBPR",
+      "url": "https://www2.myfloridalicense.com/sto/file_download/extracts/Condo_NF.csv",
+      "retrieved_date": "2026-10-01",
+      "source_file_modified": "Sat, 26 Sep 2026 10:49:54 GMT",
+      "source_effective_date": null
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_gaz_counties_12.txt",
+      "retrieved_date": "2026-10-01",
+      "source_file_modified": "Tue, 08 Sep 2026 21:00:12 GMT",
+      "source_effective_date": 2026
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_zcta_national.zip",
+      "retrieved_date": "2026-10-01",
+      "source_file_modified": "Tue, 08 Sep 2026 21:00:12 GMT",
+      "source_effective_date": 2026
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+      "retrieved_date": "2026-10-01",
+      "source_file_modified": "Thu, 09 Dec 2021 16:27:40 GMT",
+      "source_effective_date": 2020
+    }
+  ],
+  "limitations": [
+    "Counts describe reported registered condominium projects and units in the downloaded DBPR inventory, not current active buildings, engineering demand, compliance, condition or fee observations.",
+    "All inventory statuses are retained in county totals. ZIP counts exclude records with missing ZCTA matches, inconsistent county overlap or post-office-box site fields. County unallocated buckets reconcile those exclusions.",
+    "ZIP allocation screens reported site ZIPs against Census ZCTA/county relationships. It does not independently verify each property address. Managing-entity ZIPs are never substituted.",
+    "ZCTAs approximate postal ZIP service areas. Gazetteer reference points represent areas, never properties or engagements. County overlap uses 2020 Census relationships; representative points use the 2026 Gazetteer.",
+    "Some ZCTAs cross pilot and other counties. ZIP counts include only pilot-county inventory records. A county must be selected to narrow an ambiguous location.",
+    "The downloaded DBPR county-summary report has a different documented denominator and does not fully reconcile with the project inventory. This release derives all displayed counts directly from the retained project inventory.",
+    "DBPR inventory retrieval date is not a source effective date or construction date. Recorded Date is retained privately and never treated as building age.",
+    "Building-reporting export was not recovered from its interactive application; building ages, heights and building counts are unavailable.",
+    "No ZIP-specific fee cohort is established by this geographic context. Prices are never multiplied into observations by repeating regional guidance across ZIPs."
+  ],
+  "counties": [
+    {
+      "id": "bay",
+      "name": "Bay",
+      "fips": "12005",
+      "registered_projects": 288,
+      "registered_units": 19348,
+      "zip_allocated_projects": 281,
+      "zip_allocated_units": 18521,
+      "zip_unallocated_projects": 7,
+      "zip_unallocated_units": 827,
+      "area_reference_point": {
+        "latitude": 30.166746,
+        "longitude": -85.53678,
+        "coordinate_role": "area_reference_point",
+        "geography_type": "county",
+        "gazetteer_vintage": 2026
+      },
+      "context_status": "reported_inventory_not_current_building_census",
+      "source_date": null,
+      "retrieved_date": "2026-10-01",
+      "inventory_status_counts": {
+        "Approved / Delinquent": 14,
+        "Approved / Recorded": 263,
+        "Acknowledged / Delinquent": 1,
+        "Acknowledged / Recorded": 10
+      }
+    },
+    {
+      "id": "okaloosa",
+      "name": "Okaloosa",
+      "fips": "12091",
+      "registered_projects": 253,
+      "registered_units": 13267,
+      "zip_allocated_projects": 241,
+      "zip_allocated_units": 12143,
+      "zip_unallocated_projects": 12,
+      "zip_unallocated_units": 1124,
+      "area_reference_point": {
+        "latitude": 30.614325,
+        "longitude": -86.59108,
+        "coordinate_role": "area_reference_point",
+        "geography_type": "county",
+        "gazetteer_vintage": 2026
+      },
+      "context_status": "reported_inventory_not_current_building_census",
+      "source_date": null,
+      "retrieved_date": "2026-10-01",
+      "inventory_status_counts": {
+        "Approved / Delinquent": 19,
+        "Approved / Recorded": 231,
+        "Acknowledged / Delinquent": 1,
+        "Acknowledged / Recorded": 2
+      }
+    },
+    {
+      "id": "walton",
+      "name": "Walton",
+      "fips": "12131",
+      "registered_projects": 219,
+      "registered_units": 10085,
+      "zip_allocated_projects": 137,
+      "zip_allocated_units": 5034,
+      "zip_unallocated_projects": 82,
+      "zip_unallocated_units": 5051,
+      "area_reference_point": {
+        "latitude": 30.577,
+        "longitude": -86.159505,
+        "coordinate_role": "area_reference_point",
+        "geography_type": "county",
+        "gazetteer_vintage": 2026
+      },
+      "context_status": "reported_inventory_not_current_building_census",
+      "source_date": null,
+      "retrieved_date": "2026-10-01",
+      "inventory_status_counts": {
+        "Approved / Delinquent": 10,
+        "Approved / Recorded": 196,
+        "Acknowledged / Recorded": 12,
+        "Acknowledged / Delinquent": 1
+      }
+    }
+  ],
+  "zips": [
+    {
+      "zip": "32401",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.158374,
+      "longitude": -85.637996,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 17,
+      "registered_units": 1028,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 17,
+          "registered_units": 1028
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32403",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.048562,
+      "longitude": -85.553231,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32404",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.180365,
+      "longitude": -85.506079,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 1,
+      "registered_units": 2,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 1,
+          "registered_units": 2
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32405",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.199378,
+      "longitude": -85.668605,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32407",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.198389,
+      "longitude": -85.793306,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 160,
+      "registered_units": 7869,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 160,
+          "registered_units": 7869
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32408",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.156773,
+      "longitude": -85.754657,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 43,
+      "registered_units": 4372,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 43,
+          "registered_units": 4372
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32409",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.34127,
+      "longitude": -85.712606,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32410",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 29.951994,
+      "longitude": -85.428336,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 4,
+      "registered_units": 71,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 4,
+          "registered_units": 71
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32413",
+      "counties": [
+        "Bay",
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Bay",
+        "Walton"
+      ],
+      "county": null,
+      "latitude": 30.306655,
+      "longitude": -85.88437,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 64,
+      "registered_units": 5328,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 50,
+          "registered_units": 4905
+        },
+        {
+          "county": "Walton",
+          "registered_projects": 14,
+          "registered_units": 423
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32428",
+      "counties": [
+        "Bay",
+        "Jackson",
+        "Washington"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": null,
+      "latitude": 30.61575,
+      "longitude": -85.572945,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32433",
+      "counties": [
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": "Walton",
+      "latitude": 30.851178,
+      "longitude": -86.200838,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 1,
+      "registered_units": 12,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 1,
+          "registered_units": 12
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32435",
+      "counties": [
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": "Walton",
+      "latitude": 30.648792,
+      "longitude": -86.129833,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32437",
+      "counties": [
+        "Bay",
+        "Washington"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": null,
+      "latitude": 30.436248,
+      "longitude": -85.909221,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32438",
+      "counties": [
+        "Bay",
+        "Calhoun",
+        "Jackson",
+        "Washington"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": null,
+      "latitude": 30.511651,
+      "longitude": -85.414931,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32439",
+      "counties": [
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": "Walton",
+      "latitude": 30.482817,
+      "longitude": -86.129575,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32444",
+      "counties": [
+        "Bay"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": "Bay",
+      "latitude": 30.238504,
+      "longitude": -85.651591,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 1,
+      "registered_units": 63,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 1,
+          "registered_units": 63
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32455",
+      "counties": [
+        "Holmes",
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": null,
+      "latitude": 30.638626,
+      "longitude": -85.962701,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32456",
+      "counties": [
+        "Bay",
+        "Franklin",
+        "Gulf"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": null,
+      "latitude": 29.814542,
+      "longitude": -85.306423,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 5,
+      "registered_units": 211,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 5,
+          "registered_units": 211
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32459",
+      "counties": [
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": "Walton",
+      "latitude": 30.360577,
+      "longitude": -86.185591,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 80,
+      "registered_units": 2461,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 80,
+          "registered_units": 2461
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32461",
+      "counties": [
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": "Walton",
+      "latitude": 30.309343,
+      "longitude": -86.054718,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 15,
+      "registered_units": 340,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 15,
+          "registered_units": 340
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32462",
+      "counties": [
+        "Bay",
+        "Walton",
+        "Washington"
+      ],
+      "pilot_counties": [
+        "Bay",
+        "Walton"
+      ],
+      "county": null,
+      "latitude": 30.561812,
+      "longitude": -85.82373,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        },
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32464",
+      "counties": [
+        "Holmes",
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": null,
+      "latitude": 30.881353,
+      "longitude": -85.955991,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32466",
+      "counties": [
+        "Bay",
+        "Calhoun",
+        "Washington"
+      ],
+      "pilot_counties": [
+        "Bay"
+      ],
+      "county": null,
+      "latitude": 30.402854,
+      "longitude": -85.469311,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Bay",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32531",
+      "counties": [
+        "Okaloosa",
+        "Santa Rosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": null,
+      "latitude": 30.898091,
+      "longitude": -86.693071,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32536",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.750405,
+      "longitude": -86.597592,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32539",
+      "counties": [
+        "Okaloosa",
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Okaloosa",
+        "Walton"
+      ],
+      "county": null,
+      "latitude": 30.778999,
+      "longitude": -86.477169,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        },
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32541",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.395159,
+      "longitude": -86.478784,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 130,
+      "registered_units": 6782,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 130,
+          "registered_units": 6782
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32542",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.507777,
+      "longitude": -86.542936,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32544",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.426372,
+      "longitude": -86.719287,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32547",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.463144,
+      "longitude": -86.653509,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 3,
+      "registered_units": 28,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 3,
+          "registered_units": 28
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32548",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.413213,
+      "longitude": -86.589259,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 89,
+      "registered_units": 4415,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 89,
+          "registered_units": 4415
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32550",
+      "counties": [
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Walton"
+      ],
+      "county": "Walton",
+      "latitude": 30.381433,
+      "longitude": -86.345668,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 27,
+      "registered_units": 1798,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Walton",
+          "registered_projects": 27,
+          "registered_units": 1798
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32564",
+      "counties": [
+        "Okaloosa",
+        "Santa Rosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": null,
+      "latitude": 30.728808,
+      "longitude": -86.781915,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32567",
+      "counties": [
+        "Okaloosa",
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Okaloosa",
+        "Walton"
+      ],
+      "county": null,
+      "latitude": 30.921061,
+      "longitude": -86.431503,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        },
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32569",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.41138,
+      "longitude": -86.728401,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 5,
+      "registered_units": 174,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 5,
+          "registered_units": 174
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32578",
+      "counties": [
+        "Okaloosa",
+        "Walton"
+      ],
+      "pilot_counties": [
+        "Okaloosa",
+        "Walton"
+      ],
+      "county": null,
+      "latitude": 30.50784,
+      "longitude": -86.448375,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 13,
+      "registered_units": 596,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 13,
+          "registered_units": 596
+        },
+        {
+          "county": "Walton",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32579",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.445672,
+      "longitude": -86.574308,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 1,
+      "registered_units": 148,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 1,
+          "registered_units": 148
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    },
+    {
+      "zip": "32580",
+      "counties": [
+        "Okaloosa"
+      ],
+      "pilot_counties": [
+        "Okaloosa"
+      ],
+      "county": "Okaloosa",
+      "latitude": 30.506542,
+      "longitude": -86.51469,
+      "geography_type": "ZCTA",
+      "coordinate_role": "area_reference_point",
+      "gazetteer_vintage": 2026,
+      "county_relationship_vintage": 2020,
+      "registered_projects": 0,
+      "registered_units": 0,
+      "context_status": "reported_site_zip_screened_against_zcta_county_overlap",
+      "count_scope": "Pilot county inventory records only; zero means no records allocated, not no condominiums.",
+      "county_context": [
+        {
+          "county": "Okaloosa",
+          "registered_projects": 0,
+          "registered_units": 0
+        }
+      ],
+      "local_fee_cohort_available": false,
+      "pricing_geography": "Northwest Florida regional applicability only; evidence geography is provided by the selected fee record."
+    }
+  ]
+}

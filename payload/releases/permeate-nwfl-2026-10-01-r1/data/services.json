@@ -1,0 +1,440 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "research_cutoff": "2026-10-01",
+  "methodology_version": "2.0",
+  "currency": "USD",
+  "publication_status": "published",
+  "geography_policy": "Location selects planning context; prices are not locally measured ZIP or county bands.",
+  "rounding_policy": "Project endpoints to nearest USD 500 and unit endpoints to nearest USD 5; all current base endpoints are already on these increments. Scenario arithmetic is retained exactly.",
+  "services": [
+    {
+      "range_type": "indicative_planning",
+      "high_is_open": false,
+      "range_status": "scope_confirmation_required",
+      "applicability_area": "Northwest Florida planning context: Bay, Walton and Okaloosa counties",
+      "evidence_area": "Project locations unspecified; not a county or ZIP transaction sample",
+      "period": "2026 planning guidance; underlying project observation period unspecified",
+      "research_cutoff": "2026-10-01",
+      "methodology_version": "2.0",
+      "limitations": [
+        "Indicative planning guidance, not a measured market distribution or an offer.",
+        "Geographic lookup does not establish a locally observed price.",
+        "Actual fees can fall outside this interval after scope is defined."
+      ],
+      "release_id": "permeate-nwfl-2026-10-01-r1",
+      "id": "traditional-reserve-study",
+      "name": "Traditional reserve study",
+      "service_variant": "Traditional reserve study",
+      "low": 8500,
+      "high": 10000,
+      "price_basis": "USD per study engagement; building/association basis unconfirmed",
+      "currency": "USD",
+      "canonical_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/traditional-reserve-study.html",
+      "scope_drivers": [
+        "Component inventory",
+        "Initial study or update",
+        "Site visit",
+        "Buildings and common areas covered"
+      ],
+      "questions": [
+        "Which components and buildings are included?",
+        "Is this an initial study, a site-visit update or a desktop update?",
+        "Does the proposal include the full report and funding schedule?"
+      ],
+      "inclusions": [
+        "Professional service fee reference; confirm the written scope and deliverables."
+      ],
+      "exclusions": [
+        "Reserve contributions and repair construction",
+        "SIRS or milestone inspection unless explicitly included",
+        "Testing, additional visits and access equipment unless explicitly included"
+      ],
+      "scenarios": [
+        {
+          "id": "traditional-reserve-study-expanded",
+          "label": "Additional buildings or broader assessment",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Additional scope must be specified before calculating a total."
+          ],
+          "limitations": [
+            "No validated quantities or add-on schedule support an expanded total."
+          ],
+          "next_step": "Request separately priced buildings, visits, testing and deliverables."
+        },
+        {
+          "id": "traditional-reserve-study-complex",
+          "label": "Assessment through repair delivery",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Repair design, procurement support and construction oversight are distinct tasks."
+          ],
+          "limitations": [
+            "No complete current scenario supports a combined project fee."
+          ],
+          "next_step": "Obtain a staged proposal with assessment, design, bidding and oversight shown separately."
+        }
+      ],
+      "summary": "Use this interval to start a scope discussion. It does not define a standard building size, service minimum or complete project budget.",
+      "service_family": "traditional-reserve-study",
+      "service_tier": null,
+      "scope_verified": false,
+      "scope": {
+        "initial_or_update": null,
+        "study_level": null,
+        "site_visit": null,
+        "sampling_basis": null,
+        "credential_or_deliverable": null,
+        "buildings_basis": null,
+        "testing_included": null,
+        "drawings_available": null,
+        "billable_unit_definition": null,
+        "minimum_fee": null
+      },
+      "evidence_geography_status": "project_locations_unspecified",
+      "applicability_area_ids": [
+        "bay",
+        "walton",
+        "okaloosa"
+      ],
+      "localization_policy": "area_context_only"
+    },
+    {
+      "range_type": "indicative_planning",
+      "high_is_open": false,
+      "range_status": "scope_confirmation_required",
+      "applicability_area": "Northwest Florida planning context: Bay, Walton and Okaloosa counties",
+      "evidence_area": "Project locations unspecified; not a county or ZIP transaction sample",
+      "period": "2026 planning guidance; underlying project observation period unspecified",
+      "research_cutoff": "2026-10-01",
+      "methodology_version": "2.0",
+      "limitations": [
+        "Indicative planning guidance, not a measured market distribution or an offer.",
+        "Geographic lookup does not establish a locally observed price.",
+        "Actual fees can fall outside this interval after scope is defined."
+      ],
+      "release_id": "permeate-nwfl-2026-10-01-r1",
+      "id": "sirs",
+      "name": "Structural Integrity Reserve Study (SIRS)",
+      "service_variant": "Structural Integrity Reserve Study (SIRS)",
+      "low": 10000,
+      "high": 12000,
+      "price_basis": "USD per study engagement; building/association basis unconfirmed",
+      "currency": "USD",
+      "canonical_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/sirs.html",
+      "scope_drivers": [
+        "Building size and unit count",
+        "Availability of drawings",
+        "Number of buildings",
+        "Coordination with other inspections"
+      ],
+      "questions": [
+        "Which buildings and components are covered by the quoted study?",
+        "What drawings and prior reports will the provider rely on?",
+        "Are milestone inspection, testing or later repair design separate charges?"
+      ],
+      "inclusions": [
+        "Professional service fee reference; confirm the written scope and deliverables."
+      ],
+      "exclusions": [
+        "Reserve contributions and repair construction",
+        "Milestone inspection unless explicitly included",
+        "Repair drawings, testing and construction oversight unless explicitly included"
+      ],
+      "scenarios": [
+        {
+          "id": "sirs-expanded",
+          "label": "Additional buildings or broader assessment",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Additional scope must be specified before calculating a total."
+          ],
+          "limitations": [
+            "No validated quantities or add-on schedule support an expanded total."
+          ],
+          "next_step": "Request separately priced buildings, visits, testing and deliverables."
+        },
+        {
+          "id": "sirs-complex",
+          "label": "Assessment through repair delivery",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Repair design, procurement support and construction oversight are distinct tasks."
+          ],
+          "limitations": [
+            "No complete current scenario supports a combined project fee."
+          ],
+          "next_step": "Obtain a staged proposal with assessment, design, bidding and oversight shown separately."
+        }
+      ],
+      "summary": "Use this interval to start a scope discussion. It does not define a standard building size, service minimum or complete project budget.",
+      "service_family": "sirs",
+      "service_tier": null,
+      "scope_verified": false,
+      "scope": {
+        "initial_or_update": null,
+        "study_level": null,
+        "site_visit": null,
+        "sampling_basis": null,
+        "credential_or_deliverable": null,
+        "buildings_basis": null,
+        "testing_included": null,
+        "drawings_available": null,
+        "billable_unit_definition": null,
+        "minimum_fee": null
+      },
+      "evidence_geography_status": "project_locations_unspecified",
+      "applicability_area_ids": [
+        "bay",
+        "walton",
+        "okaloosa"
+      ],
+      "localization_policy": "area_context_only"
+    },
+    {
+      "range_type": "indicative_planning",
+      "high_is_open": false,
+      "range_status": "scope_confirmation_required",
+      "applicability_area": "Northwest Florida planning context: Bay, Walton and Okaloosa counties",
+      "evidence_area": "Project locations unspecified; not a county or ZIP transaction sample",
+      "period": "2026 planning guidance; underlying project observation period unspecified",
+      "research_cutoff": "2026-10-01",
+      "methodology_version": "2.0",
+      "limitations": [
+        "Indicative planning guidance, not a measured market distribution or an offer.",
+        "Geographic lookup does not establish a locally observed price.",
+        "Actual fees can fall outside this interval after scope is defined."
+      ],
+      "release_id": "permeate-nwfl-2026-10-01-r1",
+      "id": "condition-survey",
+      "name": "Condition survey",
+      "service_variant": "Condition survey",
+      "low": 8500,
+      "high": 10500,
+      "price_basis": "USD per survey engagement; buildings covered must be confirmed",
+      "currency": "USD",
+      "canonical_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/condition-survey.html",
+      "scope_drivers": [
+        "Building size and unit count",
+        "Multiple buildings",
+        "Access and testing",
+        "Report and follow-up scope"
+      ],
+      "questions": [
+        "Is this a partial exterior survey or a broader building assessment?",
+        "How many buildings and visits are covered?",
+        "Are testing, repair specifications, bidding and construction oversight separate?"
+      ],
+      "inclusions": [
+        "Professional service fee reference; confirm the written scope and deliverables."
+      ],
+      "exclusions": [
+        "Repair construction",
+        "Repair design, bidding and oversight unless explicitly included",
+        "Destructive testing and special access unless explicitly included"
+      ],
+      "scenarios": [
+        {
+          "id": "condition-survey-expanded",
+          "label": "Additional buildings or broader assessment",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Additional scope must be specified before calculating a total."
+          ],
+          "limitations": [
+            "No validated quantities or add-on schedule support an expanded total."
+          ],
+          "next_step": "Request separately priced buildings, visits, testing and deliverables."
+        },
+        {
+          "id": "condition-survey-complex",
+          "label": "Assessment through repair delivery",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Repair design, procurement support and construction oversight are distinct tasks."
+          ],
+          "limitations": [
+            "No complete current scenario supports a combined project fee."
+          ],
+          "next_step": "Obtain a staged proposal with assessment, design, bidding and oversight shown separately."
+        }
+      ],
+      "summary": "Use this interval to start a scope discussion. It does not define a standard building size, service minimum or complete project budget.",
+      "service_family": "condition-survey",
+      "service_tier": null,
+      "scope_verified": false,
+      "scope": {
+        "initial_or_update": null,
+        "study_level": null,
+        "site_visit": null,
+        "sampling_basis": null,
+        "credential_or_deliverable": null,
+        "buildings_basis": null,
+        "testing_included": null,
+        "drawings_available": null,
+        "billable_unit_definition": null,
+        "minimum_fee": null
+      },
+      "evidence_geography_status": "project_locations_unspecified",
+      "applicability_area_ids": [
+        "bay",
+        "walton",
+        "okaloosa"
+      ],
+      "localization_policy": "area_context_only"
+    },
+    {
+      "range_type": "indicative_planning",
+      "high_is_open": false,
+      "range_status": "scope_confirmation_required",
+      "applicability_area": "Northwest Florida planning context: Bay, Walton and Okaloosa counties",
+      "evidence_area": "Project locations unspecified; not a county or ZIP transaction sample",
+      "period": "2026 planning guidance; underlying project observation period unspecified",
+      "research_cutoff": "2026-10-01",
+      "methodology_version": "2.0",
+      "limitations": [
+        "Indicative planning guidance, not a measured market distribution or an offer.",
+        "Geographic lookup does not establish a locally observed price.",
+        "Actual fees can fall outside this interval after scope is defined."
+      ],
+      "release_id": "permeate-nwfl-2026-10-01-r1",
+      "id": "balcony-railing",
+      "name": "Balcony and railing assessment",
+      "service_variant": "Balcony and railing assessment",
+      "low": 45,
+      "high": 85,
+      "price_basis": "USD per billable unit; unit definition and minimum must be confirmed",
+      "currency": "USD",
+      "canonical_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/services/balcony-railing.html",
+      "scope_drivers": [
+        "Construction and railing type",
+        "Floors and stairways",
+        "Number of units",
+        "Access and findings"
+      ],
+      "questions": [
+        "What counts as one billable unit?",
+        "Is there a minimum engagement fee?",
+        "Are stairs, common walkways, access equipment and return visits included?",
+        "Does the scope cover engineering assessment, certification, or both?"
+      ],
+      "inclusions": [
+        "Professional service fee reference; confirm the written scope and deliverables."
+      ],
+      "exclusions": [
+        "Repair construction and repair design",
+        "Testing, access equipment and return visits unless explicitly included",
+        "Minimum fees or other fixed charges not established in this reference"
+      ],
+      "scenarios": [
+        {
+          "id": "balcony-railing-100-unit-example",
+          "label": "100 billable units: arithmetic illustration",
+          "range_type": "modeled",
+          "range_status": "conditional_arithmetic_only",
+          "low": 4500,
+          "high": 8500,
+          "high_is_open": false,
+          "price_basis": "USD for 100 billable units before unpriced charges",
+          "quantity": 100,
+          "quantity_basis": "Hypothetical user scenario, not a researched property",
+          "assumptions": [
+            "The quoted per-unit interval applies to all 100 billable units.",
+            "Any minimum fee, fixed fee, access, testing or additional work is priced separately."
+          ],
+          "limitations": [
+            "This multiplication is not a property quote or a supported total project budget."
+          ],
+          "formula": "100 × per-unit planning interval"
+        },
+        {
+          "id": "balcony-railing-expanded",
+          "label": "Additional buildings or broader assessment",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Additional scope must be specified before calculating a total."
+          ],
+          "limitations": [
+            "No validated quantities or add-on schedule support an expanded total."
+          ],
+          "next_step": "Request separately priced buildings, visits, testing and deliverables."
+        },
+        {
+          "id": "balcony-railing-complex",
+          "label": "Assessment through repair delivery",
+          "range_type": "scope_outline",
+          "range_status": "unpriced",
+          "low": null,
+          "high": null,
+          "high_is_open": false,
+          "price_basis": "USD per defined engagement",
+          "assumptions": [
+            "Repair design, procurement support and construction oversight are distinct tasks."
+          ],
+          "limitations": [
+            "No complete current scenario supports a combined project fee."
+          ],
+          "next_step": "Obtain a staged proposal with assessment, design, bidding and oversight shown separately."
+        }
+      ],
+      "summary": "Use this interval to start a scope discussion. It does not define a standard building size, service minimum or complete project budget.",
+      "service_family": "balcony-railing",
+      "service_tier": null,
+      "scope_verified": false,
+      "scope": {
+        "initial_or_update": null,
+        "study_level": null,
+        "site_visit": null,
+        "sampling_basis": null,
+        "credential_or_deliverable": null,
+        "buildings_basis": null,
+        "testing_included": null,
+        "drawings_available": null,
+        "billable_unit_definition": null,
+        "minimum_fee": null
+      },
+      "evidence_geography_status": "project_locations_unspecified",
+      "applicability_area_ids": [
+        "bay",
+        "walton",
+        "okaloosa"
+      ],
+      "localization_policy": "area_context_only"
+    }
+  ]
+}

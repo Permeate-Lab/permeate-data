@@ -1,0 +1,29 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "publication_status": "published",
+  "intended_canonical_base": "https://permeatelab.com/research/northwest-florida-engineering-costs/",
+  "files": [
+    "app.js",
+    "board-brief.html",
+    "brand.svg",
+    "changelog.html",
+    "compare.html",
+    "data/data.js",
+    "data/geography.json",
+    "data/localities.json",
+    "data/pricing.csv",
+    "data/release-lifecycle.json",
+    "data/service-taxonomy.json",
+    "data/services.json",
+    "explorer.html",
+    "index.html",
+    "latest.json",
+    "lookup.js",
+    "methodology.html",
+    "services/balcony-railing.html",
+    "services/condition-survey.html",
+    "services/sirs.html",
+    "services/traditional-reserve-study.html",
+    "styles.css"
+  ]
+}

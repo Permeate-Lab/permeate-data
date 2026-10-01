@@ -1,0 +1,22 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "publication_status": "published",
+  "research_cutoff": "2026-10-01",
+  "last_verified": "2026-10-01",
+  "last_verified_scope": "Release inputs reviewed on October 1, 2026. This is not a new provider confirmation, transaction date or published release date.",
+  "review_due": "2026-10-31",
+  "review_policy": "Planned 30-day review of evidence and material changes. A due date flags review; it does not expire or automatically revise prices. No recurring automation is configured.",
+  "supersedes": null,
+  "current_published_release": "permeate-nwfl-2026-10-01-r1",
+  "date_published": "2026-10-01",
+  "license": null,
+  "correction_instruction": "A correction report should identify the edition, service and field, describe the proposed correction and its evidence, and omit confidential property or contributor details. No private document submission is collected by this reference.",
+  "changes": [
+    "First public edition with four planning intervals and unconfirmed scope fields stated explicitly.",
+    "Added named community applicability, service taxonomy and distinctions between non-equivalent scopes.",
+    "Restricted public numeric scenarios to the transparent 100-unit arithmetic illustration; unsupported expanded work remains unpriced.",
+    "Separated unknown pricing observation periods from the research cutoff in dataset metadata.",
+    "Versioned edition files, current-release manifest, review timing and a correction record format."
+  ],
+  "build_mode": "production"
+}

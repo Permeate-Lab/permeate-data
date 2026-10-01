@@ -1,0 +1,193 @@
+{
+  "release_id": "permeate-nwfl-2026-10-01-r1",
+  "schema_version": "2.0",
+  "unknown_value": null,
+  "unknown_semantics": "Unknown is not false, zero, excluded, or confirmed.",
+  "aliases_are_search_terms_only": true,
+  "alias_rule": "A search alias routes to a service family; it does not establish equivalent scope or legal compliance.",
+  "scope_fields": {
+    "initial_or_update": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "initial",
+        "update"
+      ]
+    },
+    "study_level": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "full",
+        "update_with_site_visit",
+        "update_without_site_visit"
+      ]
+    },
+    "site_visit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "included",
+        "excluded"
+      ]
+    },
+    "sampling_basis": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "all_defined_elements",
+        "sampled_elements"
+      ]
+    },
+    "credential_or_deliverable": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "engineering_assessment",
+        "signed_sealed_engineering_report",
+        "visual_certification"
+      ]
+    },
+    "buildings_basis": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "single_building",
+        "multiple_buildings",
+        "association_defined_scope"
+      ]
+    },
+    "testing_included": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "included",
+        "excluded",
+        "optional"
+      ]
+    },
+    "drawings_available": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "available",
+        "unavailable"
+      ]
+    },
+    "billable_unit_definition": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "dwelling_unit",
+        "balcony",
+        "inspected_element"
+      ]
+    }
+  },
+  "minimum_fee": {
+    "type": [
+      "number",
+      "null"
+    ],
+    "minimum": 0,
+    "meaning": "A supported fixed minimum, never inferred from a range endpoint."
+  },
+  "service_tier": {
+    "type": [
+      "string",
+      "null"
+    ],
+    "meaning": "Unconfirmed for every current anchor; no full-study or credential assumption."
+  },
+  "services": [
+    {
+      "id": "traditional-reserve-study",
+      "aliases": [
+        "traditional reserve study",
+        "reserve study",
+        "reserve funding study"
+      ],
+      "do_not_equate_with": [
+        "SIRS",
+        "CDD infrastructure-only study",
+        "reserve contribution",
+        "repair construction"
+      ]
+    },
+    {
+      "id": "sirs",
+      "aliases": [
+        "SIRS",
+        "structural integrity reserve study"
+      ],
+      "do_not_equate_with": [
+        "milestone Phase One",
+        "milestone Phase Two",
+        "reserve contribution",
+        "repair construction"
+      ]
+    },
+    {
+      "id": "condition-survey",
+      "aliases": [
+        "condition survey",
+        "building condition assessment",
+        "exterior condition survey"
+      ],
+      "do_not_equate_with": [
+        "limited leakage test",
+        "repair design",
+        "construction administration",
+        "repair construction"
+      ]
+    },
+    {
+      "id": "balcony-railing",
+      "aliases": [
+        "balcony and railing assessment",
+        "balcony inspection",
+        "railing assessment"
+      ],
+      "do_not_equate_with": [
+        "basic visual certification",
+        "sampled-element assessment",
+        "repair design",
+        "repair construction"
+      ]
+    }
+  ],
+  "evidence_geography_status": [
+    "project_locations_unspecified",
+    "verified_regional_observations",
+    "verified_county_observations",
+    "verified_area_observations"
+  ],
+  "localization_policy": "Current ZIP lookup changes requested area context only. All current fee geography remains unspecified."
+}
