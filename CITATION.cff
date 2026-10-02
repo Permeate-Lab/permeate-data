@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this edition, cite it as below. Reuse is licensed under CC BY 4.0: attribution to Permeate Lab and a link to the canonical edition."
+type: dataset
+title: "Northwest Florida engineering costs"
+abstract: "Scope-based planning intervals for a traditional reserve study, a structural integrity reserve study, a condition survey, and a balcony and railing assessment, with official aggregated area context for Bay, Okaloosa and Walton counties, Florida. Planning references, not a market survey, provider offer or quote; no engineering firm is named and no firm's prices are quoted."
+authors:
+  - name: "Permeate Lab"
+    website: "https://permeatelab.com"
+    email: "research@permeatelab.com"
+    city: "Santa Rosa Beach"
+    region: "Florida"
+    country: "US"
+version: "permeate-nwfl-2026-10-01-r1"
+date-released: "2026-10-01"
+url: "https://permeatelab.com/research/northwest-florida-engineering-costs/"
+repository-code: "https://github.com/Permeate-Lab/permeate-data"
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+keywords:
+  - condominium
+  - reserve study
+  - structural integrity reserve study
+  - SIRS
+  - milestone inspection
+  - condition survey
+  - balcony assessment
+  - Florida
+  - Bay County
+  - Okaloosa County
+  - Walton County
+  - planning reference
+  - open data
+references:
+  - type: website
+    title: "Methodology, sources and limitations"
+    authors:
+      - name: "Permeate Lab"
+    url: "https://permeatelab.com/research/northwest-florida-engineering-costs/methodology.html"
+  - type: data
+    title: "Current edition manifest (latest.json)"
+    authors:
+      - name: "Permeate Lab"
+    url: "https://permeatelab.com/research/northwest-florida-engineering-costs/latest.json"
