@@ -7,9 +7,9 @@
   "policy_file": "verification-policy.json",
   "payload_representation": "Exact reviewed public source bytes. Non-HTML live bytes must match exactly. HTML live bytes must equal source or source plus one bounded host block (verification-policy.json 2.2). No raw HTML equality claim. Preview responses excluded.",
   "live_parity_status": "verified_under_policy_2.2",
-  "verified_at": "2026-10-02T13:35:42.412638+00:00",
-  "observation_started": "2026-10-02T13:35:31.258433+00:00",
-  "previous_receipt": "receipts/mirror-manifest-2026-10-02T12-54-39Z.json",
+  "verified_at": "2026-10-02T12:54:39.249070+00:00",
+  "observation_started": "2026-10-02T12:54:28.715988+00:00",
+  "previous_receipt": "receipts/mirror-manifest-2026-10-01T23-34-40Z.json",
   "file_count": 47,
   "files": {
     "app.js": {
@@ -20,10 +20,10 @@
       "http_status": 200,
       "live_raw_sha256": "e8d8c9a905c115fa29cbe15a040beda0d7eee70ab40c3352b2d0b96fb9e0e52e",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552931.UII0Uj-fvaSuGcrbuab_wtkIkG3MJBtl8-ltEFe11eQ",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550469._p01YlPJr-CjiRu7KnQEE4cpz7K-9KctFLFWsene0L8",
         "content-type": "text/javascript; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444173c8eb8150f-PDX",
+        "cf-ray": "a443db1daf57efc6-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -36,10 +36,10 @@
       "http_status": 200,
       "live_raw_sha256": "51ae281e08e711ebbb3c3bde1d3cc65d7bd6ce78cd9524a199cb5c274654e9b7",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552932.2vx-Mvd4D2SjcOmS-O3YWqmQYKifRNTEUDnGg6Oypgo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550469._p01YlPJr-CjiRu7KnQEE4cpz7K-9KctFLFWsene0L8",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441742cfd1ff02-PDX",
+        "cf-ray": "a443db250a20ff09-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -58,10 +58,10 @@
       "http_status": 200,
       "live_raw_sha256": "30777994cb8dcb0a37ec8475a169a22062433e48332169b820cebfa4097b5f49",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552932.2vx-Mvd4D2SjcOmS-O3YWqmQYKifRNTEUDnGg6Oypgo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550470.gzG_9iEMTjQZRPO1m4A2EhWWHvQnG-K5QFXhXuZOrt0",
         "content-type": "image/svg+xml",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417446dbb5d68-PDX",
+        "cf-ray": "a443db268ecc1571-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -74,10 +74,10 @@
       "http_status": 200,
       "live_raw_sha256": "2c7c63a20711a802663429fcead3395be75c8d6a45a3edb9b81aa5c6fb130f86",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552932.2vx-Mvd4D2SjcOmS-O3YWqmQYKifRNTEUDnGg6Oypgo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550470.gzG_9iEMTjQZRPO1m4A2EhWWHvQnG-K5QFXhXuZOrt0",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441745f80369da-PDX",
+        "cf-ray": "a443db26dc5afff0-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -85,15 +85,15 @@
     "changelog.html": {
       "path": "payload/changelog.html",
       "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/changelog.html",
-      "sha256": "d16b6ddb012eac2af8a293ac3250db3a3249d804573803dde4946252452c1638",
-      "bytes": 6568,
+      "sha256": "27e1622666c8fee558ab0918657c7c79dd2b819121feae961bde49a165e6b0c1",
+      "bytes": 6008,
       "http_status": 200,
-      "live_raw_sha256": "651461c0baa59e00d19a04ffb2803d1f805330932acb7abe65a8af81fb1c2d90",
+      "live_raw_sha256": "66b09b2a7c8ed6055ccfc39e2ab7c534914ef9c8f52055f3e809a31a3e6d5446",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552933.bO1Z5VHJWuqmev4uygOXrgCPEXhtJ4AWmSqUwfUBHOs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550470.gzG_9iEMTjQZRPO1m4A2EhWWHvQnG-K5QFXhXuZOrt0",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417479abb884d-PDX",
+        "cf-ray": "a443db285dd78636-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -101,7 +101,7 @@
       "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Edition history\"><meta name=\"twitter:description\" content=\"Edition history for the Northwest Florida engineering cost reference: release permeate-nwfl-2026-10-01-r1, research cutoff and review dates.\">",
       "host_block_sha256": "c930d6a028b5381949e2af0a3668579a66f475636052cc04650f0f36d10ef8f0",
       "host_block_location": "Immediately before the sole closing head tag",
-      "live_normalized_sha256": "d16b6ddb012eac2af8a293ac3250db3a3249d804573803dde4946252452c1638",
+      "live_normalized_sha256": "27e1622666c8fee558ab0918657c7c79dd2b819121feae961bde49a165e6b0c1",
       "host_block_image_url_changed_since_previous": false
     },
     "compare.html": {
@@ -112,10 +112,10 @@
       "http_status": 200,
       "live_raw_sha256": "7455bf74be12837cb6cb80a8724e7c33ec9154121ab52d9d4c7e1f1a91185f2d",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552933.bO1Z5VHJWuqmev4uygOXrgCPEXhtJ4AWmSqUwfUBHOs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550470.gzG_9iEMTjQZRPO1m4A2EhWWHvQnG-K5QFXhXuZOrt0",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417492aa24b01-PDX",
+        "cf-ray": "a443db29ef48ff02-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -129,15 +129,15 @@
     "data/data.js": {
       "path": "payload/data/data.js",
       "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/data.js",
-      "sha256": "6aa6796a7dd5d35566d702b1fca35ae391ed38321149e4da5f15b269ba1a01cd",
-      "bytes": 78249,
+      "sha256": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
+      "bytes": 78057,
       "http_status": 200,
-      "live_raw_sha256": "6aa6796a7dd5d35566d702b1fca35ae391ed38321149e4da5f15b269ba1a01cd",
+      "live_raw_sha256": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552933.bO1Z5VHJWuqmev4uygOXrgCPEXhtJ4AWmSqUwfUBHOs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550470.gzG_9iEMTjQZRPO1m4A2EhWWHvQnG-K5QFXhXuZOrt0",
         "content-type": "text/javascript; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417497938495f-PDX",
+        "cf-ray": "a443db2b5cadfef4-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -150,10 +150,10 @@
       "http_status": 200,
       "live_raw_sha256": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552933.bO1Z5VHJWuqmev4uygOXrgCPEXhtJ4AWmSqUwfUBHOs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550471.9uVBxGa25AaWTjKjy6iHb0cWqvHmkeIy6wNSfuAZhWc",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444174ae872eedd-PDX",
+        "cf-ray": "a443db2d3d66d106-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -166,10 +166,10 @@
       "http_status": 200,
       "live_raw_sha256": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552933.bO1Z5VHJWuqmev4uygOXrgCPEXhtJ4AWmSqUwfUBHOs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550471.9uVBxGa25AaWTjKjy6iHb0cWqvHmkeIy6wNSfuAZhWc",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444174c68a0d0a0-PDX",
+        "cf-ray": "a443db2eabf9302c-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -182,10 +182,10 @@
       "http_status": 200,
       "live_raw_sha256": "d443bdb6391b8c24958044239ec2f213ad139809a1916dfe6fb0fa87cdb1939d",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552934.QCqRi72JRs5PerbbW2DNFbJJyXXnE8abrw9TWntYR6M",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550471.9uVBxGa25AaWTjKjy6iHb0cWqvHmkeIy6wNSfuAZhWc",
         "content-type": "text/csv; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444174e3cb4fc1e-PDX",
+        "cf-ray": "a443db303bb33d49-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -193,15 +193,15 @@
     "data/release-lifecycle.json": {
       "path": "payload/data/release-lifecycle.json",
       "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/data/release-lifecycle.json",
-      "sha256": "08d1048b965c6a296084eb65c98cd27f0cee1dec9b87d862ede9d4c54cc51258",
-      "bytes": 1743,
+      "sha256": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
+      "bytes": 1546,
       "http_status": 200,
-      "live_raw_sha256": "08d1048b965c6a296084eb65c98cd27f0cee1dec9b87d862ede9d4c54cc51258",
+      "live_raw_sha256": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552934.QCqRi72JRs5PerbbW2DNFbJJyXXnE8abrw9TWntYR6M",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550471.9uVBxGa25AaWTjKjy6iHb0cWqvHmkeIy6wNSfuAZhWc",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444174e88d0c3af-PDX",
+        "cf-ray": "a443db31cacd87ab-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -214,10 +214,10 @@
       "http_status": 200,
       "live_raw_sha256": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552934.QCqRi72JRs5PerbbW2DNFbJJyXXnE8abrw9TWntYR6M",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550472.TZqxUb3rI0k1Jm3ElR7Qm3wMXYQ_XGWYdycjtAs3iY0",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417500b9ab8b9-PDX",
+        "cf-ray": "a443db334a42ac0d-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -230,10 +230,10 @@
       "http_status": 200,
       "live_raw_sha256": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552934.QCqRi72JRs5PerbbW2DNFbJJyXXnE8abrw9TWntYR6M",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550472.TZqxUb3rI0k1Jm3ElR7Qm3wMXYQ_XGWYdycjtAs3iY0",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417505fe40055-PDX",
+        "cf-ray": "a443db34d8cbff1a-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -246,10 +246,10 @@
       "http_status": 200,
       "live_raw_sha256": "1150132946d0a0f7dc848273bdfdbbb79849de0485fb2024d8daa8c5588014be",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552934.QCqRi72JRs5PerbbW2DNFbJJyXXnE8abrw9TWntYR6M",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550472.TZqxUb3rI0k1Jm3ElR7Qm3wMXYQ_XGWYdycjtAs3iY0",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441751fdf91561-PDX",
+        "cf-ray": "a443db367ca89790-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -263,15 +263,15 @@
     "index.html": {
       "path": "payload/index.html",
       "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/index.html",
-      "sha256": "07f5fdbcdd9c340690b73f13868da210aeef98c3f4df6b8d2afd4a2e96ca48ab",
-      "bytes": 15089,
+      "sha256": "42a589f40af00a5b87c5c26d4d402adb8c54ac1b2700d43138921cb637cb117b",
+      "bytes": 12471,
       "http_status": 200,
-      "live_raw_sha256": "53cc1eaa35b714b07a165ced5d7b9ff05b26af3da48d7abfeb0ad9e5c0878f7e",
+      "live_raw_sha256": "4e740c8f160446e9705b7d7cb17d037133ac01ef9f3d9ec1d7eb1299d9bcd1bd",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552934.QCqRi72JRs5PerbbW2DNFbJJyXXnE8abrw9TWntYR6M",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550472.TZqxUb3rI0k1Jm3ElR7Qm3wMXYQ_XGWYdycjtAs3iY0",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "no-cache, must-revalidate, max-age=0",
-        "cf-ray": "a4441753780469d7-PDX",
+        "cf-ray": "a443db37eef1495f-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -279,21 +279,21 @@
       "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Northwest Florida engineering costs\"><meta name=\"twitter:description\" content=\"Indicative planning intervals for a traditional reserve study, SIRS, condition survey and balcony and railing assessment, with area context for Bay, Walton and Okaloosa counties.\">",
       "host_block_sha256": "fc13e3f015a67b5e4eab291023e5f25b1474b47195d325a23884c979ad87044a",
       "host_block_location": "Immediately before the sole closing head tag",
-      "live_normalized_sha256": "07f5fdbcdd9c340690b73f13868da210aeef98c3f4df6b8d2afd4a2e96ca48ab",
+      "live_normalized_sha256": "42a589f40af00a5b87c5c26d4d402adb8c54ac1b2700d43138921cb637cb117b",
       "host_block_image_url_changed_since_previous": false
     },
     "latest.json": {
       "path": "payload/latest.json",
       "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/latest.json",
-      "sha256": "db705fd6d6b8ecad329d15bcf40acad440c033dc02f76cacf8954a2f9fa2cbbb",
+      "sha256": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
       "bytes": 1474,
       "http_status": 200,
-      "live_raw_sha256": "db705fd6d6b8ecad329d15bcf40acad440c033dc02f76cacf8954a2f9fa2cbbb",
+      "live_raw_sha256": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552935.aKF_m29BrCLLlZG_TTdo7PRnB3nA7Pwlwvjye4cbfKE",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550473.Kwp5LwTWxC0EEp4dljYJYthjXh9fXrBAI7FxmMUMvwI",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444175538070bee-PDX",
+        "cf-ray": "a443db394928ff05-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -306,10 +306,10 @@
       "http_status": 200,
       "live_raw_sha256": "cd43720dd006256e828fa51ddac9811cdce3bc2f26e3f65f10f803875c1551cc",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552935.aKF_m29BrCLLlZG_TTdo7PRnB3nA7Pwlwvjye4cbfKE",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550473.Kwp5LwTWxC0EEp4dljYJYthjXh9fXrBAI7FxmMUMvwI",
         "content-type": "text/javascript; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441756bad5fdb1-PDX",
+        "cf-ray": "a443db399c8bad76-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -317,15 +317,15 @@
     "methodology.html": {
       "path": "payload/methodology.html",
       "origin_url": "https://permeatelab.com/research/northwest-florida-engineering-costs/methodology.html",
-      "sha256": "d43b7a14028a17daf6f5a08de1f903e088ef324ff2ceb54fc6dd54539b96a6bb",
-      "bytes": 13303,
+      "sha256": "ece59e687cd3bee9341fef50044cd469cbb721c3cb0566d1b14565ba21afab76",
+      "bytes": 12745,
       "http_status": 200,
-      "live_raw_sha256": "ade17d412f720fef82e50f84bcdb988e9333c1d064c12aefa203b6c2d9fb2b00",
+      "live_raw_sha256": "0beb3adb2395f33dd84fa0579e8677decfc13633ae5385aa6cf00da322b1c5b9",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552935.aKF_m29BrCLLlZG_TTdo7PRnB3nA7Pwlwvjye4cbfKE",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550473.Kwp5LwTWxC0EEp4dljYJYthjXh9fXrBAI7FxmMUMvwI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417570cde5ec6-PDX",
+        "cf-ray": "a443db39eb2d8864-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -333,7 +333,7 @@
       "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Methodology and data\"><meta name=\"twitter:description\" content=\"How the Northwest Florida engineering cost edition was built: planning intervals, geography, scope dictionary, data downloads, corrections and edition history.\">",
       "host_block_sha256": "2b2a5c97f50a136f0914625b6e975e3fbb6a793235bcf3b78a43b027256c94ae",
       "host_block_location": "Immediately before the sole closing head tag",
-      "live_normalized_sha256": "d43b7a14028a17daf6f5a08de1f903e088ef324ff2ceb54fc6dd54539b96a6bb",
+      "live_normalized_sha256": "ece59e687cd3bee9341fef50044cd469cbb721c3cb0566d1b14565ba21afab76",
       "host_block_image_url_changed_since_previous": false
     },
     "releases/permeate-nwfl-2026-10-01-r1/app.js": {
@@ -344,10 +344,10 @@
       "http_status": 200,
       "live_raw_sha256": "d1fc5ab8ebe3255f15c8b726008a70afad62e8235d6f7804c1547a15cd4aaba7",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552935.aKF_m29BrCLLlZG_TTdo7PRnB3nA7Pwlwvjye4cbfKE",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550473.Kwp5LwTWxC0EEp4dljYJYthjXh9fXrBAI7FxmMUMvwI",
         "content-type": "text/javascript; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441758cc10b338-PDX",
+        "cf-ray": "a443db3b6c8e884d-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -358,18 +358,18 @@
       "sha256": "ef9b565621b3f51c3a58a5af2cffc445bd3b5a8a24a1550cc31992202b324943",
       "bytes": 4184,
       "http_status": 200,
-      "live_raw_sha256": "bcd1022f3e527df6e3b10a57b239f5d18d9c625a0ec781b04a6cfc7c79602009",
+      "live_raw_sha256": "83b604247ea1265fc0e6fec15bc1cf9dfb172957f1d935c65d3d0ca69465c215",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552936.VUEjti7A0T7zgObBfj7k-0CGgmaCXS2mx0SNGc_pjd0",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550473.Kwp5LwTWxC0EEp4dljYJYthjXh9fXrBAI7FxmMUMvwI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444175a4defabbf-PDX",
+        "cf-ray": "a443db3ceb265d68-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Board budget brief\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "17f8385b0b1526c52ec0231b0322e558dc8bc9701fd33e562d1bf1c257e8baf3",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Board budget brief\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "415246f16c1b2041dbbae8b679aabef83d3aadac5e76b6179b2cabc57e961d18",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "ef9b565621b3f51c3a58a5af2cffc445bd3b5a8a24a1550cc31992202b324943",
       "host_block_image_url_changed_since_previous": true
@@ -382,10 +382,10 @@
       "http_status": 200,
       "live_raw_sha256": "30777994cb8dcb0a37ec8475a169a22062433e48332169b820cebfa4097b5f49",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552936.VUEjti7A0T7zgObBfj7k-0CGgmaCXS2mx0SNGc_pjd0",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550474.d2YkmLMvihIdrVOu0xGOWkD6C5VhDWb5qthfVOx2zFA",
         "content-type": "image/svg+xml",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444175bc884c4ac-PDX",
+        "cf-ray": "a443db3f0cecf896-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -398,10 +398,10 @@
       "http_status": 200,
       "live_raw_sha256": "a59fa1344ae6b171f5f8ac2222e5aa622d154542881a6903f5e440a0fd1ec5d8",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552936.VUEjti7A0T7zgObBfj7k-0CGgmaCXS2mx0SNGc_pjd0",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550474.d2YkmLMvihIdrVOu0xGOWkD6C5VhDWb5qthfVOx2zFA",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444175d5b50ef18-PDX",
+        "cf-ray": "a443db408b198bee-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -412,18 +412,18 @@
       "sha256": "b0cc9699804d444cc92fe10bb997a111680642a746975f38da69fb764eb03b3a",
       "bytes": 3792,
       "http_status": 200,
-      "live_raw_sha256": "e2bb02db17fee662f88a2d7c039cbd0a430cb737313e95e1f05900d99de6bc2a",
+      "live_raw_sha256": "8eb36ee37e53883c86d5f300c87238621baa66198b71843d8ac82344fdbee516",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552936.VUEjti7A0T7zgObBfj7k-0CGgmaCXS2mx0SNGc_pjd0",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550474.d2YkmLMvihIdrVOu0xGOWkD6C5VhDWb5qthfVOx2zFA",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444175f0d02d106-PDX",
+        "cf-ray": "a443db421aebff11-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Edition history\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "6bf87f9ae018c7dea17102ea6ed26365839f74131cf7ca284b3325fabaaf4145",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Edition history\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "691f9174b586def1447257ee8d3b238a8298d3036c2363c30cd3465dca21a26b",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "b0cc9699804d444cc92fe10bb997a111680642a746975f38da69fb764eb03b3a",
       "host_block_image_url_changed_since_previous": true
@@ -434,18 +434,18 @@
       "sha256": "fe4ed13921fd20cee1bcf9aaf0c53642fff55d475384a4daecaf420eef15a9c1",
       "bytes": 6121,
       "http_status": 200,
-      "live_raw_sha256": "1278be5210274d3e68d44be1aab2ca61053d79647d52b75ac59bf8f09338e539",
+      "live_raw_sha256": "fe7dba7b3d87d5cdbffa7d8198bf2732b0aeea801b4edcf22367533232a9d810",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552937.TKv4ZEoFDTkmXmBoOgfShC4elvjV5NZQruC6agul1mo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550474.d2YkmLMvihIdrVOu0xGOWkD6C5VhDWb5qthfVOx2zFA",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417609a9d2fbe-PDX",
+        "cf-ray": "a443db426c77afe8-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Compare engineering proposal scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "408e8108d4b66c1af46cec4991fe7b9edb446dc707870bd71c83fe592f9c1fe5",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Compare engineering proposal scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "30b49758c99f1d94fc59c5b410a5131b224fed90b815cdbc3c0619728bb9f688",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "fe4ed13921fd20cee1bcf9aaf0c53642fff55d475384a4daecaf420eef15a9c1",
       "host_block_image_url_changed_since_previous": true
@@ -458,10 +458,10 @@
       "http_status": 200,
       "live_raw_sha256": "f1340281a92ec2807e2e8e2e38874e739217077488484a22ba5395d5ef9990da",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552937.TKv4ZEoFDTkmXmBoOgfShC4elvjV5NZQruC6agul1mo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550474.d2YkmLMvihIdrVOu0xGOWkD6C5VhDWb5qthfVOx2zFA",
         "content-type": "text/javascript; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441763a9770ba9-PDX",
+        "cf-ray": "a443db43d9c5a32d-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -474,10 +474,10 @@
       "http_status": 200,
       "live_raw_sha256": "cabb7b1708fc80b6c2d84bff07e4614e9ca9bed2763b76c0239f659348ec4266",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552937.TKv4ZEoFDTkmXmBoOgfShC4elvjV5NZQruC6agul1mo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550475.1JwKI83jIO0N-0z99iBXAm69K6WOeRwgzcFp3BYmOXw",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417654c494598-PDX",
+        "cf-ray": "a443db4568d8acc8-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -490,10 +490,10 @@
       "http_status": 200,
       "live_raw_sha256": "41693142081fc05e0ca07bfc4951079850af97720cae57965350880906952163",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552938.7Cwt67pGUJXW4PfaasHtKnHBaSu6YpydZBP2s9aQv04",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550475.1JwKI83jIO0N-0z99iBXAm69K6WOeRwgzcFp3BYmOXw",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441766ca001fb9-PDX",
+        "cf-ray": "a443db46d840ff12-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -506,10 +506,10 @@
       "http_status": 200,
       "live_raw_sha256": "d443bdb6391b8c24958044239ec2f213ad139809a1916dfe6fb0fa87cdb1939d",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552938.7Cwt67pGUJXW4PfaasHtKnHBaSu6YpydZBP2s9aQv04",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550475.1JwKI83jIO0N-0z99iBXAm69K6WOeRwgzcFp3BYmOXw",
         "content-type": "text/csv; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417685f37ff0d-PDX",
+        "cf-ray": "a443db4869810ba9-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -522,10 +522,10 @@
       "http_status": 200,
       "live_raw_sha256": "ec40cbf9360bdc0bc9f58bfbfa3976c1ffa66cbf95eb405c2fcfa8d59ac02d5e",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552938.7Cwt67pGUJXW4PfaasHtKnHBaSu6YpydZBP2s9aQv04",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550475.1JwKI83jIO0N-0z99iBXAm69K6WOeRwgzcFp3BYmOXw",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441769e974c153-PDX",
+        "cf-ray": "a443db49fdf45939-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -538,10 +538,10 @@
       "http_status": 200,
       "live_raw_sha256": "4604d7b596425fbacefb5915eeb1751f16754bc596e02aecad01a8d115309a50",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552938.7Cwt67pGUJXW4PfaasHtKnHBaSu6YpydZBP2s9aQv04",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550476.0DJ1yZYbOf7dT8Wkxl0v3OBy74gomXogVDjkH4HPFTw",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444176b6e868636-PDX",
+        "cf-ray": "a443db4b9ba71687-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -554,10 +554,10 @@
       "http_status": 200,
       "live_raw_sha256": "964512391ea009f884ea4163749c6784cb30482dd86593faf35b775b1dc1ef17",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552938.7Cwt67pGUJXW4PfaasHtKnHBaSu6YpydZBP2s9aQv04",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550476.0DJ1yZYbOf7dT8Wkxl0v3OBy74gomXogVDjkH4HPFTw",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444176bc85eaee3-PDX",
+        "cf-ray": "a443db4d1fe74518-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -570,10 +570,10 @@
       "http_status": 200,
       "live_raw_sha256": "00d4690ed95961aba5eeeeb1cbf8af63742901b82a0da893cecc7af7debd0303",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552939.FDnWPrP5HbBH10sq-dPYo7zzZfmgmb2FBiJ2iVKFeVU",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550476.0DJ1yZYbOf7dT8Wkxl0v3OBy74gomXogVDjkH4HPFTw",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444176d7d0f817f-PDX",
+        "cf-ray": "a443db4ebd3a5ecd-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -584,18 +584,18 @@
       "sha256": "e4d58115f6b1882ff11bb82d28e790c1282ebaeff3212d180bd2c4b6056b1cbb",
       "bytes": 8690,
       "http_status": 200,
-      "live_raw_sha256": "cfd1bbfc3b64708c79e3ec6d7f2ea2e4e32c59fc3c9833d363ac21360d891cc4",
+      "live_raw_sha256": "ea84c9a49179b25d657da33409445001bc7609511c86fd324b330e361ef9e74f",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552939.FDnWPrP5HbBH10sq-dPYo7zzZfmgmb2FBiJ2iVKFeVU",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550476.0DJ1yZYbOf7dT8Wkxl0v3OBy74gomXogVDjkH4HPFTw",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444176f0a3011c8-PDX",
+        "cf-ray": "a443db506a8d3416-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"ZIP and service explorer\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "565b07a0b865590b07b1ecf2aba44a5cf3586504d08e8e95062cff53b81cb56a",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"ZIP and service explorer\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "e39d5e167c1d83309b68c5d332d3733e30906412589d051e52d487ffbb396386",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "e4d58115f6b1882ff11bb82d28e790c1282ebaeff3212d180bd2c4b6056b1cbb",
       "host_block_image_url_changed_since_previous": true
@@ -606,18 +606,18 @@
       "sha256": "8f17c538d05150d5e81822611106cefc628bc3d3e82f0b7f3d2ba832d0f6772d",
       "bytes": 9960,
       "http_status": 200,
-      "live_raw_sha256": "8e3163989f04e3fc5fbbb86ddbdaba5d5a3b71ab4c2585deaf7b91b111b9d5ad",
+      "live_raw_sha256": "a56af0679be3e2616fb54b87c1a044ba2aca9aff1e3935ea1334433c0f3fea83",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552939.FDnWPrP5HbBH10sq-dPYo7zzZfmgmb2FBiJ2iVKFeVU",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550476.0DJ1yZYbOf7dT8Wkxl0v3OBy74gomXogVDjkH4HPFTw",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "no-cache, must-revalidate, max-age=0",
-        "cf-ray": "a44417707e1a88dc-PDX",
+        "cf-ray": "a443db50fd869bf9-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Northwest Florida engineering costs\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "515874094b1f4a8f22176b2c5d6baf68a94491432277ea4126dd074380344423",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Northwest Florida engineering costs\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "1d80484cc75d69a828654ee3d07766ccd523f0090fdd80ebde809ba1ee9c664c",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "8f17c538d05150d5e81822611106cefc628bc3d3e82f0b7f3d2ba832d0f6772d",
       "host_block_image_url_changed_since_previous": true
@@ -630,10 +630,10 @@
       "http_status": 200,
       "live_raw_sha256": "b82c104f35b00929ee479bfbcd37d81db876d82eb2f0a49cf8163dba7e195427",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552939.FDnWPrP5HbBH10sq-dPYo7zzZfmgmb2FBiJ2iVKFeVU",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550477.c291SIdgpLok2bvQApaDWc6BzQQU8snXn1psRrUdaEU",
         "content-type": "application/json; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441770c88fc654-PDX",
+        "cf-ray": "a443db528a2c706c-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -646,10 +646,10 @@
       "http_status": 200,
       "live_raw_sha256": "2cb23974ee4e37462978d0ce5d45245d3c6bc0626319dea6a9d91d429aa524a9",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552939.FDnWPrP5HbBH10sq-dPYo7zzZfmgmb2FBiJ2iVKFeVU",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550477.c291SIdgpLok2bvQApaDWc6BzQQU8snXn1psRrUdaEU",
         "content-type": "text/javascript; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417727b90c895-PDX",
+        "cf-ray": "a443db52d898ff19-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -660,18 +660,18 @@
       "sha256": "33a52c4c1ca1dcac077909b8af2079a7b1e486bbb7eee6a05cf0f3ba9941a017",
       "bytes": 9472,
       "http_status": 200,
-      "live_raw_sha256": "de4908bdb6d0269db6f1e7456b9f1b7feafa8fc89942103fd763a6726f667149",
+      "live_raw_sha256": "04b86ba19b97244854d5b028b37ac4d4d1889aa9aea87a4eff6f4a31d274208d",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552940.p7lHpXD_lIXC8LqtZvHC03eQuKwZoh3fc_o9jKlTzMs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550477.c291SIdgpLok2bvQApaDWc6BzQQU8snXn1psRrUdaEU",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441773eff6c654-PDX",
+        "cf-ray": "a443db544ee39935-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Methodology and data\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "b12119a32b72bc7eb1188667c0e4c0528782005a93bb8978d8ea6251a85ca0cd",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Methodology and data\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "54e96a14b85f3bd7212d8cee5c908ef05d3550e2b8dfc2379b70a1b17ef02dbc",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "33a52c4c1ca1dcac077909b8af2079a7b1e486bbb7eee6a05cf0f3ba9941a017",
       "host_block_image_url_changed_since_previous": true
@@ -682,18 +682,18 @@
       "sha256": "a4e8e32331785fee247d6e869e3ab968ed6520dde20afac2d5ea2a2673d0aa3f",
       "bytes": 5854,
       "http_status": 200,
-      "live_raw_sha256": "33fedec7847830666d5a07e0d6179c45d3d3f0d56fea1eba4708b3b1fb0282df",
+      "live_raw_sha256": "7f9711bf65c11fe86051301955d1cfb2d8d98568e051e211f93ecccf8798730c",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552940.p7lHpXD_lIXC8LqtZvHC03eQuKwZoh3fc_o9jKlTzMs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550477.c291SIdgpLok2bvQApaDWc6BzQQU8snXn1psRrUdaEU",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417743ebf5ef1-PDX",
+        "cf-ray": "a443db55d8a7ff03-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Balcony and railing assessment cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "c432feb6b254f37e817bd270613a740859737c68fda3179b1de28e3b95c6815f",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Balcony and railing assessment cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "1607a4fd652bea806e9ec0840306be3102295889b340ca86591bc1359b1b0b7e",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "a4e8e32331785fee247d6e869e3ab968ed6520dde20afac2d5ea2a2673d0aa3f",
       "host_block_image_url_changed_since_previous": true
@@ -704,18 +704,18 @@
       "sha256": "5eac2baffcf73f9915a2b830b131dc32df79f1e11cf459d30375daa7b46e740d",
       "bytes": 5205,
       "http_status": 200,
-      "live_raw_sha256": "cf789eaa64556fd3a9eb59f64741e190b934f00d757136f064d54a77ad72442b",
+      "live_raw_sha256": "e54ab3128067e94df8c65bc70e8c1622191cef2bc653263358cc69e85691c2ca",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552940.p7lHpXD_lIXC8LqtZvHC03eQuKwZoh3fc_o9jKlTzMs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550477.c291SIdgpLok2bvQApaDWc6BzQQU8snXn1psRrUdaEU",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417761cfcfb74-PDX",
+        "cf-ray": "a443db575f6c2095-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Condition survey cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "b365fe3a84dca1a0ae21f94a918452366054e1e94708e7b3ff973f43bb6d5723",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Condition survey cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "c42bb1eff572c22e00221a21bca6c3bf1f2333cdf2a8161019ac305046c0a38d",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "5eac2baffcf73f9915a2b830b131dc32df79f1e11cf459d30375daa7b46e740d",
       "host_block_image_url_changed_since_previous": true
@@ -726,18 +726,18 @@
       "sha256": "34b02eac3439e198552c4e0657b949f5f1d3db63e29676134d6df00641da41e7",
       "bytes": 5329,
       "http_status": 200,
-      "live_raw_sha256": "827a84adf4e6f06e025fe89a67395ca7e95f1ce3834e87aa95428589e054b1ef",
+      "live_raw_sha256": "ecc202eff27dc22c173effcf72d1ab287de98e224a23eefe93c8628adb3f921c",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552940.p7lHpXD_lIXC8LqtZvHC03eQuKwZoh3fc_o9jKlTzMs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550478.Jzfn4tCQbhVm9dTogvgBcx6j1IQUd3edTiJDPOPg5cI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a4441777b95df3b4-PDX",
+        "cf-ray": "a443db57bacfe8e9-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Structural Integrity Reserve Study (SIRS) cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "e8823de071acee6d5861ebc8c9ecea6f1bd8389d1a92513df10547c53dd677df",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Structural Integrity Reserve Study (SIRS) cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "724f07f94ca5acda6c37038495a595d03cd7449c8929e5b79ae9f46eb881a9ee",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "34b02eac3439e198552c4e0657b949f5f1d3db63e29676134d6df00641da41e7",
       "host_block_image_url_changed_since_previous": true
@@ -748,18 +748,18 @@
       "sha256": "8f5b941022b36d12f6a398a6ab4aad23ecab079320e84ae7565f824ec0f08e42",
       "bytes": 5268,
       "http_status": 200,
-      "live_raw_sha256": "6154dbd8f955a1a36a9487d83cfe5b5fe62ab6519aea0cec6c570d04943ff59c",
+      "live_raw_sha256": "fdeab18fa931423aea4fafc9b1b58c0c41253b2a2635dfa73e94ed317cdd1ee1",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552940.p7lHpXD_lIXC8LqtZvHC03eQuKwZoh3fc_o9jKlTzMs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550478.Jzfn4tCQbhVm9dTogvgBcx6j1IQUd3edTiJDPOPg5cI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417792fe9fef1-PDX",
+        "cf-ray": "a443db580ed569d4-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
-      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png",
-      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Traditional reserve study cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/f86e2875cdc0d4b468bbde0d26efd21c_1790947501873.png\">",
-      "host_block_sha256": "5f963e3b424ebd8625ddcabbfa8ec3e46e5d10e8bf11f9d85ee032337b038db0",
+      "host_block_image_url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png",
+      "host_block_utf8": "<script defer src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script><meta name=\"twitter:title\" content=\"Traditional reserve study cost and scope\"><meta property=\"og:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\"><meta name=\"twitter:image\" content=\"https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/0df40cf4bd76b9c7daa547fb77cafed5_1790904507952.png\">",
+      "host_block_sha256": "3b6eb0b488ec185f88518e94440c48f69e93166a964629c899012c0d390522f5",
       "host_block_location": "Immediately before the sole closing head tag",
       "live_normalized_sha256": "8f5b941022b36d12f6a398a6ab4aad23ecab079320e84ae7565f824ec0f08e42",
       "host_block_image_url_changed_since_previous": true
@@ -772,10 +772,10 @@
       "http_status": 200,
       "live_raw_sha256": "d3997b7a86904a58e0d9e8b1f40d2f2fe4b830b9a3a20db80876a1fc8f550e2a",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552941.EFmN0VgRc59DFi9yPVrB9eHb9HNTM2gPQ0d4TfjnYBo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550478.Jzfn4tCQbhVm9dTogvgBcx6j1IQUd3edTiJDPOPg5cI",
         "content-type": "text/css; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444177adf80a11a-PDX",
+        "cf-ray": "a443db599ced9bf9-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
@@ -788,10 +788,10 @@
       "http_status": 200,
       "live_raw_sha256": "d016f7cee5a67763b230bd5451421fd3a73496338774c9f9c945737ac176b03a",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552941.EFmN0VgRc59DFi9yPVrB9eHb9HNTM2gPQ0d4TfjnYBo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550478.Jzfn4tCQbhVm9dTogvgBcx6j1IQUd3edTiJDPOPg5cI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444177cddb1c54c-PDX",
+        "cf-ray": "a443db59ee8de8e9-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -810,10 +810,10 @@
       "http_status": 200,
       "live_raw_sha256": "7af4ab56dc2cc19f756b6ff759c9ee185532180a64c82cf41b3ef4dea9ab3a57",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552941.EFmN0VgRc59DFi9yPVrB9eHb9HNTM2gPQ0d4TfjnYBo",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550478.Jzfn4tCQbhVm9dTogvgBcx6j1IQUd3edTiJDPOPg5cI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a444177e7e97bd22-PDX",
+        "cf-ray": "a443db5a2c2fff17-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -832,10 +832,10 @@
       "http_status": 200,
       "live_raw_sha256": "759a4d479e26f6a2f8bf05f4c9802d0e1ff2bac7dc1357a9795dd247235568c9",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552942.RmDgi62qKNKc5SVwlFohfoLDpqeeU-0J6-vswZ6yCNs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550478.Jzfn4tCQbhVm9dTogvgBcx6j1IQUd3edTiJDPOPg5cI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417800c818636-PDX",
+        "cf-ray": "a443db5c3f406e09-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -854,10 +854,10 @@
       "http_status": 200,
       "live_raw_sha256": "f2fa752c32a775e058991f6e3af3991bd4177c818f96d57ccde9ee47cd4c2961",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552942.RmDgi62qKNKc5SVwlFohfoLDpqeeU-0J6-vswZ6yCNs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550478.Jzfn4tCQbhVm9dTogvgBcx6j1IQUd3edTiJDPOPg5cI",
         "content-type": "text/html; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417804c344b01-PDX",
+        "cf-ray": "a443db5c8dc2a509-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "source_plus_bounded_host_block",
@@ -876,10 +876,10 @@
       "http_status": 200,
       "live_raw_sha256": "bd9d83ad78f63d6dc8a0ec9a21b7c79d7a0180fe069c5dca9851eb0463c5205b",
       "response_headers": {
-        "x-deployment-id": "psr2.8e4fecff-169d-4177-9408-424f08adf9e9.1791552942.RmDgi62qKNKc5SVwlFohfoLDpqeeU-0J6-vswZ6yCNs",
+        "x-deployment-id": "psr2.104d83f5-fd00-43d1-b90a-3534329c641e.1791550479.ZRaie5svVF-gECfWidh1HGzd2zPLzvCKoc8k_jpK8QE",
         "content-type": "text/css; charset=utf-8",
         "cache-control": "public, max-age=300",
-        "cf-ray": "a44417809c8fff05-PDX",
+        "cf-ray": "a443db5dfacb5332-PDX",
         "x-robots-tag": "index, follow"
       },
       "parity_mode": "exact_raw"
