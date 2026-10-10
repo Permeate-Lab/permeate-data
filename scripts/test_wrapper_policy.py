@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-"""Offline adversarial fixtures for verification-policy.json 2.2. Run: python3 scripts/test_wrapper_policy.py"""
+"""Offline adversarial fixtures for verification-policy.json 2.3. Run: python3 scripts/test_wrapper_policy.py"""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from verify_mirror import check_html, TEMPLATE, TEMPLATES  # noqa: E402
+TEMPLATES = {k: v.replace("{events}", "") for k, v in TEMPLATES.items()}
+EVENTS = ('<script defer src="/__l5e/events.1718a1eacac7ff3a.js" data-artifact-kind="dwl_content_hash" data-artifact-id="' + "c" * 64
+          + '" data-commit-sha="' + "8" * 40 + '" data-context-token="v1.eyJhIjoxfQ.abc_-DEF"></script>')
+FLOCK = '<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script>'
 
 HOST = "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_1dnx54hk2x8v1sxcvws2j8x4p3/"
 OLD = HOST + "680c68439d4f80ff28d0bc14348216be_1790880801739.png"
@@ -23,11 +27,11 @@ def inject(block: str, source: bytes = SOURCE) -> bytes:
     return source[:i] + block.encode() + source[i:]
 
 
-def block(title="T", image=NEW, image2=None, description=None):
+def block(title="T", image=NEW, image2=None, description=None, events=""):
     image2 = image if image2 is None else image2
     desc = "" if description is None else f'<meta name="twitter:description" content="{description}">'
     imgs = "" if image is None else f'<meta property="og:image" content="{image}"><meta name="twitter:image" content="{image2}">'
-    return (f'<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script><meta name="twitter:title" content="{title}">'
+    return (f'{FLOCK}{events}<meta name="twitter:title" content="{title}">'
             f'{desc}{imgs}')
 
 
@@ -53,6 +57,16 @@ FIXTURES = [
     ("source head tag removed", inject(block()).replace(b"</head>", b"", 1), False),
     ("block before other head tags", SOURCE.replace(b"<title>", block().encode() + b"<title>"), False),
     ("description tag when source has no og:description", inject(block(description=DESC)), False),
+    ("events script after flock, recorded block without it", inject(block(events=EVENTS)), True),
+    ("events script with a different token and commit", inject(block(events=EVENTS.replace("abc_-DEF", "zz9").replace("8" * 40, "a" * 40))), True),
+    ("events script before flock", inject(EVENTS + block()), False),
+    ("events script after the meta tags", inject(block() + EVENTS), False),
+    ("two events scripts", inject(block(events=EVENTS + EVENTS)), False),
+    ("events script from another path", inject(block(events=EVENTS.replace("/__l5e/", "/evil/"))), False),
+    ("events script with extra attribute", inject(block(events=EVENTS.replace("></script>", " onload=\"x()\"></script>"))), False),
+    ("events script with non-hex artifact id", inject(block(events=EVENTS.replace("c" * 64, "g" * 64))), False),
+    ("events script with short filename hash", inject(block(events=EVENTS.replace("1718a1eacac7ff3a", "1718a1eacac7ff3"))), False),
+    ("events script with wrong artifact kind", inject(block(events=EVENTS.replace("dwl_content_hash", "other"))), False),
 ]
 
 DESC_FIXTURES = [
@@ -64,6 +78,7 @@ DESC_FIXTURES = [
     ("description block with extra tag", inject(block(description=DESC) + '<meta name="x" content="y">', SOURCE_WITH_OG), False),
     ("description block with unequal images", inject(block(description=DESC, image2=OLD), SOURCE_WITH_OG), False),
     ("description block, title changed", inject(block(title="Other", description=DESC), SOURCE_WITH_OG), False),
+    ("description block with events script", inject(block(description=DESC, events=EVENTS), SOURCE_WITH_OG), True),
 ]
 
 
@@ -79,6 +94,8 @@ IMG_FIXTURES = [
     ("image-less block with extra tag", inject(block(image=None, description=DESC) + '<meta name="x" content="y">', SOURCE_WITH_IMG), False),
     ("image-less block with extra script", inject(block(image=None, description=DESC) + '<script src="/evil.js"></script>', SOURCE_WITH_IMG), False),
     ("source own image edited", inject(block(image=None, description=DESC), SOURCE_WITH_IMG.replace(OWN.encode(), NEW.encode(), 1)), False),
+    ("image-less block with events script", inject(block(image=None, description=DESC, events=EVENTS), SOURCE_WITH_IMG), True),
+    ("image-less block with events script and extra tag", inject(block(image=None, description=DESC, events=EVENTS) + '<meta name="x" content="y">', SOURCE_WITH_IMG), False),
 ]
 
 

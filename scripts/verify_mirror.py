@@ -4,7 +4,7 @@
   python3 scripts/verify_mirror.py --verify
   python3 scripts/verify_mirror.py --regenerate [--previous receipts/<old>.json]
 
-Policy: verification-policy.json (2.2). Standard library only.
+Policy: verification-policy.json (2.3). Standard library only.
 """
 import argparse, datetime, hashlib, json, re, sys, urllib.request
 from pathlib import Path
@@ -13,7 +13,8 @@ ROOT = Path(__file__).resolve().parent.parent
 POLICY = json.loads((ROOT / "verification-policy.json").read_text())
 IMAGE_RE = re.compile(POLICY["html"]["image_url_pattern"])
 TEMPLATES = POLICY["html"]["block_templates"]
-TEMPLATE = TEMPLATES["title_image"]
+TEMPLATE = TEMPLATES["title_image"].replace("{events}", "")
+EVENTS_RE = re.compile(POLICY["html"]["events_script_pattern"].encode())
 OG_DESCRIPTION_RE = re.compile(rb'<meta property="og:description" content="([^"<>]*)">')
 OG_IMAGE_RE = re.compile(rb'<meta property="og:image" content="[^"<>]*">')
 TW_IMAGE_RE = re.compile(rb'<meta name="twitter:image" content="[^"<>]*">')
@@ -28,7 +29,8 @@ def sha256(data: bytes) -> str:
 def parse_block(block: bytes):
     """Return (title, image_url_or_None, description_or_None) when block matches one recorded shape exactly, else None."""
     for template in TEMPLATES.values():
-        pattern = re.escape(template.encode()).replace(rb"\{title\}", rb"(?P<title>[^\"<>]*)", 1)
+        pattern = re.escape(template.encode()).replace(rb"\{events\}", rb"(?:" + EVENTS_RE.pattern + rb")?", 1)
+        pattern = pattern.replace(rb"\{title\}", rb"(?P<title>[^\"<>]*)", 1)
         pattern = pattern.replace(rb"\{description\}", rb"(?P<description>[^\"<>]*)", 1)
         pattern = pattern.replace(rb"\{image\}", rb"(?P<image>[^\"<>]*)", 1)
         pattern = pattern.replace(rb"\{image\}", rb"(?P=image)", 1)
@@ -50,7 +52,7 @@ def source_og_description(source: bytes):
 
 
 def check_html(source: bytes, live: bytes, recorded_block: str | None):
-    """Apply policy 2.2 to one HTML document.
+    """Apply policy 2.3 to one HTML document.
 
     Returns (ok, mode, image_url, reason).
     """
@@ -84,7 +86,7 @@ def check_html(source: bytes, live: bytes, recorded_block: str | None):
         if rec[0] != title:
             return False, "reject", image, "twitter:title differs from the recorded block"
         expected = (recorded_block if rec[1] is None or image is None else recorded_block.replace(rec[1], image)).encode()
-        if block != expected:
+        if EVENTS_RE.sub(b"", block, 1) != EVENTS_RE.sub(b"", expected, 1):
             return False, "reject", image, "host block differs from the recorded block beyond the image filename"
     return True, "source_plus_bounded_host_block", image, ""
 
