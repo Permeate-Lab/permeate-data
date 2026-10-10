@@ -17,7 +17,8 @@
     "Restricted public numeric scenarios to the transparent 100-unit arithmetic illustration; unsupported expanded work remains unpriced.",
     "Separated unknown pricing observation periods from the research cutoff in dataset metadata.",
     "Versioned edition files, current-release manifest, review timing and a correction record format.",
-    "Reuse license assigned on 2026-10-02: Creative Commons Attribution 4.0 International (CC BY 4.0). No price, scope, geography or data value changed."
+    "Reuse license assigned on 2026-10-02: Creative Commons Attribution 4.0 International (CC BY 4.0). No price, scope, geography or data value changed.",
+    "Dated release copy re-cut on 2026-10-10 to the current edition files after an audit found it predated the October 1 lookup and wording updates and the October 2 license assignment; services, geography, localities and taxonomy data files unchanged; release-lifecycle.json and data.js took the October 2 license."
   ],
   "build_mode": "production"
 }
