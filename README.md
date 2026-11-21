@@ -4,6 +4,8 @@ Permeate Lab is a Nova3 AI research publication. This repository mirrors the pub
 
 [Read the canonical reference](https://permeatelab.com/research/northwest-florida-engineering-costs/) · [Methodology](https://permeatelab.com/research/northwest-florida-engineering-costs/methodology.html) · [Current edition metadata](https://permeatelab.com/research/northwest-florida-engineering-costs/latest.json)
 
+Service guides: [Structural Integrity Reserve Study (SIRS)](https://permeatelab.com/research/northwest-florida-engineering-costs/services/sirs.html) · [Condition survey](https://permeatelab.com/research/northwest-florida-engineering-costs/services/condition-survey.html) · [Balcony and railing assessment](https://permeatelab.com/research/northwest-florida-engineering-costs/services/balcony-railing.html) · [Traditional reserve study](https://permeatelab.com/research/northwest-florida-engineering-costs/services/traditional-reserve-study.html)
+
 The `payload/` directory retains the publication's file names and relative paths, including the dated edition. It contains scoped planning references, public geographic context and reusable public data. The four price bands are indicative planning guidance; they are not provider offers. Unknown expanded fees remain unpriced.
 
 Edition: `permeate-nwfl-2026-10-01-r1`. The research cutoff and actual publication state are recorded inside the mirrored public files. This mirror is another distribution of the same publication, not independent corroboration.
