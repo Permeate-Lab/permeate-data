@@ -4,8 +4,10 @@
   "research_cutoff": "2026-10-01",
   "last_verified": "2026-10-01",
   "last_verified_scope": "Release inputs reviewed on October 1, 2026. This is not a new provider confirmation, transaction date or published release date.",
-  "review_due": "2026-10-31",
-  "review_policy": "Planned 30-day review of evidence and material changes. A due date flags review; it does not expire or automatically revise prices. No recurring automation is configured.",
+  "last_reviewed": "2026-11-20",
+  "last_reviewed_scope": "Maintenance review on November 20, 2026. No price, scope, geography or data value changed.",
+  "review_due": "2027-01-08",
+  "review_policy": "Next planned review of evidence and material changes: 2027-01-08. A due date flags review; it does not expire or automatically revise prices. No recurring automation is configured.",
   "supersedes": null,
   "current_published_release": "permeate-nwfl-2026-10-01-r1",
   "date_published": "2026-10-01",
@@ -18,7 +20,8 @@
     "Clarified dataset metadata.",
     "Versioned edition files, current-release manifest, review timing and a correction record format.",
     "Reuse license assigned on 2026-10-02: Creative Commons Attribution 4.0 International (CC BY 4.0). No price, scope, geography or data value changed.",
-    "Dated release copy re-cut on 2026-10-10 to the current edition files after an audit found it predated the October 1 lookup and wording updates and the October 2 license assignment; services, geography, localities and taxonomy data files unchanged; release-lifecycle.json and data.js took the October 2 license."
+    "Dated release copy re-cut on 2026-10-10 to the current edition files after an audit found it predated the October 1 lookup and wording updates and the October 2 license assignment; services, geography, localities and taxonomy data files unchanged; release-lifecycle.json and data.js took the October 2 license.",
+    "Maintenance review on 2026-11-20: no price change; next review 2027-01-08. Review dates updated in release-lifecycle.json, its data.js serialization, latest.json and the methodology and edition history pages, and the dated release copy was re-cut to match. No price, scope, geography or data value changed."
   ],
   "build_mode": "production"
 }
