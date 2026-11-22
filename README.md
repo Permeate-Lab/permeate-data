@@ -1,6 +1,6 @@
 # Permeate Lab public research mirror
 
-Permeate Lab is a Nova3 AI research publication. This repository mirrors the public Northwest Florida engineering cost reference. Permeate Lab is the canonical publisher.
+Permeate Lab is an independent research publication. This repository mirrors the public Northwest Florida engineering cost reference. Permeate Lab is the canonical publisher.
 
 [Read the canonical reference](https://permeatelab.com/research/northwest-florida-engineering-costs/) · [Methodology](https://permeatelab.com/research/northwest-florida-engineering-costs/methodology.html) · [Current edition metadata](https://permeatelab.com/research/northwest-florida-engineering-costs/latest.json)
 
@@ -34,6 +34,6 @@ The publication mirrored here, including the `payload/` files, this documentatio
 
 ## Citation
 
-Permeate Lab (2026). Northwest Florida engineering costs, edition permeate-nwfl-2026-10-01-r1. Permeate Lab, a Nova3 AI research practice. https://permeatelab.com/research/northwest-florida-engineering-costs/ (CC BY 4.0).
+Permeate Lab (2026). Northwest Florida engineering costs, edition permeate-nwfl-2026-10-01-r1. Permeate Lab. https://permeatelab.com/research/northwest-florida-engineering-costs/ (CC BY 4.0).
 
 `CITATION.cff` carries the same citation in machine-readable form. Cite the canonical URL; this mirror is a distribution of the publication, not the publisher.
